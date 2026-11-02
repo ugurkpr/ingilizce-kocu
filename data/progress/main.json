@@ -1,9 +1,20 @@
 {
-  "startedAt": null,
+  "startedAt": "2026-11-02",
   "streak": 0,
-  "lastActiveDate": null,
+  "lastActiveDate": "2026-11-02",
   "current": "a1-u1-l1",
   "completed": {},
-  "log": {},
+  "log": {
+    "2026-11-02": [
+      {
+        "lesson": "a1-u1-l1",
+        "steps": {
+          "prev": true
+        },
+        "minutes": 0,
+        "done": false
+      }
+    ]
+  },
   "weak": {}
 }
