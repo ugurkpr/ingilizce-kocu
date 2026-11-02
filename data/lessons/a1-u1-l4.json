@@ -1,0 +1,865 @@
+{
+ "id": "a1-u1-l4",
+ "course": "A1",
+ "unit": 1,
+ "lesson": 4,
+ "n": 4,
+ "type": "lesson",
+ "title_tr": "Soru kelimeleri ve sayılar",
+ "title_en": "Question words and numbers",
+ "date": "2026-11-05",
+ "minutes": 35,
+ "goals_tr": [
+  "What / Where / Who / How old ile soru sorabileceksin.",
+  "Yaşını söyleyip karşındakine sorabileceksin: How old are you? I'm 30.",
+  "11'den 100'e kadar sayabilecek, telefon numaranı söyleyebileceksin.",
+  "Bir cümlede hangi kelimenin vurgulandığını duyup kendin de vurgulayabileceksin."
+ ],
+ "prev_check": {
+  "homework_feedback_md": null,
+  "score": null,
+  "quiz": [
+   {
+    "type": "choice",
+    "q": "They ___ our clients.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "are",
+    "why_tr": "they → are."
+   },
+   {
+    "type": "choice",
+    "q": "We ___ designers.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "are",
+    "why_tr": "we → are."
+   },
+   {
+    "type": "choice",
+    "q": "I'm ___.",
+    "options": [
+     "a Turkish",
+     "Turkish",
+     "Turk"
+    ],
+    "answer": "Turkish",
+    "why_tr": "Milliyet sıfat, a almaz."
+   },
+   {
+    "type": "correct",
+    "q": "They is happy.",
+    "answer": "They are happy.",
+    "alt": [
+     "They're happy."
+    ],
+    "why_tr": "Çoğul → are."
+   },
+   {
+    "type": "translate",
+    "q": "Biz meşgul değiliz.",
+    "answer": "We aren't busy.",
+    "alt": [
+     "We are not busy.",
+     "We're not busy."
+    ],
+    "why_tr": "we + aren't."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "t": "text",
+   "h": "Soru kelimeleri: to be ile 'ne, nerede, kim, kaç yaşında'",
+   "md": "Şimdiye kadar sorduğumuz sorular **evet/hayır** sorularıydı: `Are you tired?` Bugün bilgi isteyen sorulara geçiyoruz. Bunun için cümlenin en başına bir **soru kelimesi** koyarsın, gerisi aynı kalır:\n\n- `What` → ne → `What is your name?`\n- `Where` → nerede / nereli → `Where are you from?` · `Where is the office?`\n- `Who` → kim → `Who is she?`\n- `How old` → kaç yaşında → `How old are you?`\n- `How` → nasıl → `How are you?`\n\nFormül çok basit ve hiç değişmez:\n\n**Soru kelimesi + am/is/are + özne + ...?**\n\n`Where` + `are` + `you` + `from?`\n\nTürkçede soru kelimesi cümlenin ortasında durabilir ('Sen **nerelisin**?', 'Adın **ne**?'). İngilizcede soru kelimesi **her zaman en başta** olur. Bu yüzden Türk öğrencilerin tipik hatası: ✗ `Your name is what?` ✓ `What is your name?`\n\nKonuşmada kısaltmalar: `What's` (what is), `Where's`, `Who's`, `How's`. `What's your name?` en doğal halidir."
+  },
+  {
+   "t": "table",
+   "h": "Soru kelimeleri + to be",
+   "cols": [
+    "Soru kelimesi",
+    "Anlamı",
+    "Soru",
+    "Cevap"
+   ],
+   "rows": [
+    [
+     "What",
+     "ne",
+     "What's your name?",
+     "My name is Uğur. / I'm Uğur."
+    ],
+    [
+     "What",
+     "ne (iş)",
+     "What's your job?",
+     "I'm a designer."
+    ],
+    [
+     "Where",
+     "nerede / nereli",
+     "Where are you from?",
+     "I'm from Samsun."
+    ],
+    [
+     "Where",
+     "nerede",
+     "Where is the office?",
+     "It's in Samsun."
+    ],
+    [
+     "Who",
+     "kim",
+     "Who is he?",
+     "He's my boss."
+    ],
+    [
+     "How",
+     "nasıl",
+     "How are you?",
+     "I'm fine, thanks."
+    ],
+    [
+     "How old",
+     "kaç yaşında",
+     "How old are you?",
+     "I'm 30 (years old)."
+    ],
+    [
+     "What",
+     "telefon numarası",
+     "What's your phone number?",
+     "It's 0532 ..."
+    ]
+   ]
+  },
+  {
+   "t": "examples",
+   "h": "Örnekler",
+   "items": [
+    {
+     "en": "What's your name? — I'm Uğur.",
+     "tr": "Adın ne? — Ben Uğur."
+    },
+    {
+     "en": "What's her name? — Her name is Emma.",
+     "tr": "Onun adı ne? — Adı Emma."
+    },
+    {
+     "en": "Where is the client from? — He's from Berlin.",
+     "tr": "Müşteri nereli? — Berlinli."
+    },
+    {
+     "en": "Who is that? — That's my boss, Ali.",
+     "tr": "O kim? — O patronum, Ali."
+    },
+    {
+     "en": "How old are you? — I'm thirty.",
+     "tr": "Kaç yaşındasın? — Otuz."
+    },
+    {
+     "en": "How old is your sister? — She's 25.",
+     "tr": "Kız kardeşin kaç yaşında? — 25."
+    },
+    {
+     "en": "What's your phone number? — It's 0532 416 78 90.",
+     "tr": "Telefon numaran ne? — 0532 416 78 90."
+    },
+    {
+     "en": "Where are my keys? — They're on the desk.",
+     "tr": "Anahtarlarım nerede? — Masanın üstünde."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "turkce",
+   "md": "**Yaş: Türkçe 'otuz yaşında-yım', İngilizce 'I am thirty'.** İki fark var. Birincisi, yine `am/is/are` kullanılır; 'have' (sahip olmak) değil. Fransızca/İspanyolca bilenler karıştırır ama senin için kolay: Türkçedeki gibi 'olmak' mantığı. İkincisi, 'yaş' kelimesini söylemen gerekmez: `I'm 30.` yeter. Uzun hali `I'm 30 years old.` — ama ✗ `I'm 30 years.` ya da ✗ `I'm 30 old.` olmaz; ya hiçbirini söyle ya ikisini birden."
+  },
+  {
+   "t": "table",
+   "h": "Sayılar 11-100",
+   "cols": [
+    "Sayı",
+    "İngilizce",
+    "Okunuşu"
+   ],
+   "rows": [
+    [
+     "11",
+     "eleven",
+     "i-LE-vın"
+    ],
+    [
+     "12",
+     "twelve",
+     "tuelv"
+    ],
+    [
+     "13",
+     "thirteen",
+     "thör-TİİN"
+    ],
+    [
+     "14",
+     "fourteen",
+     "for-TİİN"
+    ],
+    [
+     "15",
+     "fifteen",
+     "fif-TİİN"
+    ],
+    [
+     "16",
+     "sixteen",
+     "siks-TİİN"
+    ],
+    [
+     "17",
+     "seventeen",
+     "sevın-TİİN"
+    ],
+    [
+     "18",
+     "eighteen",
+     "ey-TİİN"
+    ],
+    [
+     "19",
+     "nineteen",
+     "nayn-TİİN"
+    ],
+    [
+     "20",
+     "twenty",
+     "TUEN-ti"
+    ],
+    [
+     "30",
+     "thirty",
+     "THÖR-ti"
+    ],
+    [
+     "40",
+     "forty",
+     "FOR-ti"
+    ],
+    [
+     "50",
+     "fifty",
+     "FİF-ti"
+    ],
+    [
+     "60",
+     "sixty",
+     "SİKS-ti"
+    ],
+    [
+     "70",
+     "seventy",
+     "SE-vın-ti"
+    ],
+    [
+     "80",
+     "eighty",
+     "EY-ti"
+    ],
+    [
+     "90",
+     "ninety",
+     "NAYN-ti"
+    ],
+    [
+     "100",
+     "a hundred",
+     "ı HAN-drıd"
+    ]
+   ]
+  },
+  {
+   "t": "text",
+   "h": "Sayılarla iki küçük kural",
+   "md": "**1. Aradaki sayılar tire ile birleşir:** 21 = `twenty-one`, 35 = `thirty-five`, 99 = `ninety-nine`. Söylerken onlar basamağı + birler basamağı; Türkçeyle aynı sıra, kolay.\n\n**2. -teen ve -ty tuzağı:** 13 (thirteen) ile 30 (thirty) yazıda da seste de benzer. Fark **vurguda**: `thir-TEEN` sonda vurgulu ve uzun; `THIR-ty` başta vurgulu ve kısa. Telefon numarası ya da fiyat söylerken bu fark önemli; emin olmak için `one-three` diye de söyleyebilirsin.\n\n**Telefon numarası:** rakam rakam okunur. `0532 416 78 90` → `oh-five-three-two, four-one-six, seven-eight, nine-oh`. Sıfır için konuşmada `oh` (o harfi gibi) çok yaygın, `zero` da olur. İki aynı rakam yan yana: `double` → `55` = `double five`."
+  },
+  {
+   "t": "dialogue",
+   "h": "Diyalog: Form dolduruyoruz",
+   "lines": [
+    {
+     "who": "Receptionist",
+     "en": "Good morning. What's your name, please?",
+     "tr": "Günaydın. Adınız lütfen?"
+    },
+    {
+     "who": "Uğur",
+     "en": "It's Uğur. Uğur Kaya.",
+     "tr": "Uğur. Uğur Kaya."
+    },
+    {
+     "who": "Receptionist",
+     "en": "And what's your job?",
+     "tr": "Peki mesleğiniz?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm a graphic designer.",
+     "tr": "Grafik tasarımcıyım."
+    },
+    {
+     "who": "Receptionist",
+     "en": "How old are you?",
+     "tr": "Kaç yaşındasınız?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm thirty.",
+     "tr": "Otuz."
+    },
+    {
+     "who": "Receptionist",
+     "en": "What's your phone number?",
+     "tr": "Telefon numaranız?"
+    },
+    {
+     "who": "Uğur",
+     "en": "It's 0532 416 78 90.",
+     "tr": "0532 416 78 90."
+    },
+    {
+     "who": "Receptionist",
+     "en": "Sorry, 78 or 68?",
+     "tr": "Pardon, 78 mi 68 mi?"
+    },
+    {
+     "who": "Uğur",
+     "en": "Seven-eight. Seventy-eight.",
+     "tr": "Yedi-sekiz. Yetmiş sekiz."
+    },
+    {
+     "who": "Receptionist",
+     "en": "Perfect. Thank you, Uğur.",
+     "tr": "Harika. Teşekkürler Uğur."
+    }
+   ]
+  },
+  {
+   "t": "pronounce",
+   "h": "Telaffuz: cümle vurgusu",
+   "items": [
+    {
+     "en": "WHAT's your NAME?",
+     "hint": "Büyük yazılanlar güçlü ve uzun, 'your' kısa ve hızlı. İngilizce her heceyi eşit söylemez; önemli kelimeler öne çıkar."
+    },
+    {
+     "en": "WHERE are you FROM?",
+     "hint": "'are you' neredeyse yutulur: 'ver-ı-yu-FRAM'"
+    },
+    {
+     "en": "HOW OLD are you?",
+     "hint": "how ve old ikisi de güçlü, 'are you' zayıf"
+    },
+    {
+     "en": "I'm THIRty.",
+     "hint": "30: vurgu başta, kısa"
+    },
+    {
+     "en": "I'm thirTEEN.",
+     "hint": "13: vurgu sonda, uzun 'tiin'"
+    },
+    {
+     "en": "It's oh-five-THREE-two",
+     "hint": "Numara söylerken gruplar arasında kısa dur; 'three'de dil dişlerin arasında"
+    },
+    {
+     "en": "SORry?",
+     "hint": "Anlamadığında tek kelime, sesi yükselt. Türkçe 'Efendim?' karşılığı."
+    }
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Sık hatalar",
+   "items": [
+    {
+     "wrong": "Your name is what?",
+     "right": "What is your name?",
+     "why": "Soru kelimesi her zaman en başta; sonra fiil, sonra özne."
+    },
+    {
+     "wrong": "How old you are?",
+     "right": "How old are you?",
+     "why": "Soru kelimesinden sonra fiil gelir, özne değil. 'you are' düz cümle sırasıdır."
+    },
+    {
+     "wrong": "I have 30 years.",
+     "right": "I'm 30 (years old).",
+     "why": "Yaş 'be' ile söylenir. 'have' Türkçeye de mantıksız gelir zaten; tuzağa düşme."
+    },
+    {
+     "wrong": "I'm 30 years.",
+     "right": "I'm 30 years old.",
+     "why": "'years' varsa 'old' da olmalı. Kısa hali I'm 30."
+    },
+    {
+     "wrong": "Where is from she?",
+     "right": "Where is she from?",
+     "why": "'from' cümlenin sonunda kalır: Where + is + she + from?"
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "what",
+   "en": "what",
+   "tr": "ne",
+   "pos": "pronoun",
+   "ipa": "wʌt",
+   "ex_en": "What's your name?",
+   "ex_tr": "Adın ne?"
+  },
+  {
+   "id": "who",
+   "en": "who",
+   "tr": "kim",
+   "pos": "pronoun",
+   "ipa": "huː",
+   "ex_en": "Who is she?",
+   "ex_tr": "O kim?"
+  },
+  {
+   "id": "how",
+   "en": "how",
+   "tr": "nasıl",
+   "pos": "adverb",
+   "ipa": "haʊ",
+   "ex_en": "How are you?",
+   "ex_tr": "Nasılsın?"
+  },
+  {
+   "id": "how_old",
+   "en": "How old...?",
+   "tr": "Kaç yaşında...?",
+   "pos": "phrase",
+   "ipa": "haʊ oʊld",
+   "ex_en": "How old are you? — I'm 30.",
+   "ex_tr": "Kaç yaşındasın? — 30."
+  },
+  {
+   "id": "years_old",
+   "en": "... years old",
+   "tr": "... yaşında",
+   "pos": "phrase",
+   "ipa": "jɪrz oʊld",
+   "ex_en": "She's 25 years old.",
+   "ex_tr": "O 25 yaşında."
+  },
+  {
+   "id": "age",
+   "en": "age",
+   "tr": "yaş",
+   "pos": "noun",
+   "ipa": "eɪdʒ",
+   "ex_en": "Age: 30.",
+   "ex_tr": "Yaş: 30."
+  },
+  {
+   "id": "phone_number",
+   "en": "phone number",
+   "tr": "telefon numarası",
+   "pos": "noun",
+   "ipa": "foʊn ˈnʌmbər",
+   "ex_en": "What's your phone number?",
+   "ex_tr": "Telefon numaran ne?"
+  },
+  {
+   "id": "number",
+   "en": "number",
+   "tr": "sayı, numara",
+   "pos": "noun",
+   "ipa": "ˈnʌmbər",
+   "ex_en": "My lucky number is seven.",
+   "ex_tr": "Şanslı sayım yedi."
+  },
+  {
+   "id": "email",
+   "en": "email",
+   "tr": "e-posta",
+   "pos": "noun",
+   "ipa": "ˈiːmeɪl",
+   "ex_en": "What's your email?",
+   "ex_tr": "E-postan ne?"
+  },
+  {
+   "id": "twenty",
+   "en": "twenty",
+   "tr": "yirmi",
+   "pos": "number",
+   "ipa": "ˈtwenti",
+   "ex_en": "I'm twenty-nine... no, thirty!",
+   "ex_tr": "Yirmi dokuz... yok, otuz!"
+  },
+  {
+   "id": "thirty",
+   "en": "thirty",
+   "tr": "otuz",
+   "pos": "number",
+   "ipa": "ˈθɜːrti",
+   "ex_en": "I'm thirty years old.",
+   "ex_tr": "Otuz yaşındayım."
+  },
+  {
+   "id": "hundred",
+   "en": "hundred",
+   "tr": "yüz",
+   "pos": "number",
+   "ipa": "ˈhʌndrəd",
+   "ex_en": "A hundred people are at the event.",
+   "ex_tr": "Etkinlikte yüz kişi var."
+  },
+  {
+   "id": "sorry",
+   "en": "Sorry? / sorry",
+   "tr": "Efendim? / Pardon",
+   "pos": "interjection",
+   "ipa": "ˈsɑːri",
+   "ex_en": "Sorry? Can you repeat?",
+   "ex_tr": "Efendim? Tekrar eder misiniz?"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "tr": "lütfen",
+   "pos": "adverb",
+   "ipa": "pliːz",
+   "ex_en": "Your name, please?",
+   "ex_tr": "Adınız lütfen?"
+  },
+  {
+   "id": "office",
+   "en": "office",
+   "tr": "ofis",
+   "pos": "noun",
+   "ipa": "ˈɔːfɪs",
+   "ex_en": "Where is the office?",
+   "ex_tr": "Ofis nerede?"
+  }
+ ],
+ "listening": {
+  "h": "Dinleme: Telefonda bir müşteri",
+  "text_en": "Hello, this is Sarah from Blue Coffee. I'm the new marketing manager. I'm 34 years old and I'm from Manchester. Our office is in Istanbul now. My phone number is 0212 555 23 41. Sorry, I'm in a meeting. Call me at 5, please.",
+  "text_tr": "Merhaba, ben Blue Coffee'den Sarah. Yeni pazarlama müdürüyüm. 34 yaşındayım ve Manchester'lıyım. Ofisimiz artık İstanbul'da. Telefon numaram 0212 555 23 41. Kusura bakmayın, toplantıdayım. Beni 5'te arayın lütfen.",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "Sarah kaç yaşında?",
+    "options": [
+     "34",
+     "43",
+     "24"
+    ],
+    "answer": "34",
+    "why_tr": "'thirty-four'."
+   },
+   {
+    "type": "choice",
+    "q": "Ofis nerede?",
+    "options": [
+     "Manchester",
+     "Istanbul",
+     "Samsun"
+    ],
+    "answer": "Istanbul",
+    "why_tr": "'Our office is in Istanbul now.'"
+   },
+   {
+    "type": "choice",
+    "q": "Telefon numarasının son iki rakamı?",
+    "options": [
+     "23",
+     "41",
+     "55"
+    ],
+    "answer": "41",
+    "why_tr": "'...23 41' → four-one."
+   }
+  ]
+ },
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "___ is your name? — Uğur.",
+   "options": [
+    "Who",
+    "What",
+    "Where"
+   ],
+   "answer": "What",
+   "why_tr": "Ad → What."
+  },
+  {
+   "type": "choice",
+   "q": "___ is he? — He's my boss.",
+   "options": [
+    "Who",
+    "What",
+    "How"
+   ],
+   "answer": "Who",
+   "why_tr": "Kişi kimliği → Who."
+  },
+  {
+   "type": "choice",
+   "q": "___ old are you?",
+   "options": [
+    "What",
+    "How",
+    "Where"
+   ],
+   "answer": "How",
+   "why_tr": "Yaş → How old."
+  },
+  {
+   "type": "choice",
+   "q": "How old ___ your sister?",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "is",
+   "why_tr": "sister → she → is."
+  },
+  {
+   "type": "choice",
+   "q": "What's your phone number? — ___ 0532 416 78 90.",
+   "options": [
+    "I'm",
+    "It's",
+    "He's"
+   ],
+   "answer": "It's",
+   "why_tr": "Numara bir şeydir → it."
+  },
+  {
+   "type": "choice",
+   "q": "25 = ?",
+   "options": [
+    "twenty-five",
+    "twelve-five",
+    "fifty-two"
+   ],
+   "answer": "twenty-five",
+   "why_tr": "20 + 5, tire ile."
+  },
+  {
+   "type": "fill",
+   "q": "___ are you from? — Samsun.",
+   "answer": "Where",
+   "alt": [
+    "where"
+   ],
+   "why_tr": "Yer → Where."
+  },
+  {
+   "type": "fill",
+   "q": "How ___ is your boss? — He's 45.",
+   "answer": "old",
+   "why_tr": "How old = kaç yaşında."
+  },
+  {
+   "type": "fill",
+   "q": "I'm 30 years ___.",
+   "answer": "old",
+   "why_tr": "'years' varsa 'old' şart."
+  },
+  {
+   "type": "order",
+   "words": [
+    "old",
+    "How",
+    "you",
+    "are",
+    "?"
+   ],
+   "answer": "How old are you?",
+   "why_tr": "How old + are + you."
+  },
+  {
+   "type": "order",
+   "words": [
+    "from",
+    "Where",
+    "is",
+    "she",
+    "?"
+   ],
+   "answer": "Where is she from?",
+   "why_tr": "from sonda kalır."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "fifteen",
+     "15"
+    ],
+    [
+     "fifty",
+     "50"
+    ],
+    [
+     "eighteen",
+     "18"
+    ],
+    [
+     "eighty",
+     "80"
+    ],
+    [
+     "a hundred",
+     "100"
+    ]
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Kaç yaşındasın? — Otuz.",
+   "answer": "How old are you? — I'm thirty.",
+   "alt": [
+    "How old are you? I'm 30.",
+    "How old are you? I'm thirty years old.",
+    "How old are you? I am thirty."
+   ],
+   "why_tr": "Yaş 'be' ile."
+  },
+  {
+   "type": "translate",
+   "q": "Biz Samsunluyuz.",
+   "answer": "We're from Samsun.",
+   "alt": [
+    "We are from Samsun."
+   ],
+   "why_tr": "Dünden: we + are + from."
+  },
+  {
+   "type": "listen",
+   "say": "My phone number is 0532 416 78 90.",
+   "q": "Numarayı rakamla yaz (boşluksuz da olur).",
+   "answer": "0532 416 78 90",
+   "alt": [
+    "05324167890",
+    "0532 4167890",
+    "0532-416-78-90"
+   ]
+  },
+  {
+   "type": "listen",
+   "say": "How old is your brother? He's seventeen.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "How old is your brother? He's seventeen.",
+   "alt": [
+    "How old is your brother? He is seventeen.",
+    "How old is your brother? He's 17."
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "What's your name? Where are you from? How old are you?",
+   "q": "Dinle ve tekrar et. Soru kelimelerini güçlü, 'are you'yu zayıf söyle."
+  },
+  {
+   "type": "correct",
+   "q": "How old you are?",
+   "answer": "How old are you?",
+   "alt": [
+    "How old are you"
+   ],
+   "why_tr": "Soru kelimesinden sonra fiil gelir."
+  },
+  {
+   "type": "correct",
+   "q": "I have 30 years.",
+   "answer": "I am 30 years old.",
+   "alt": [
+    "I'm 30 years old.",
+    "I'm 30.",
+    "I am 30."
+   ],
+   "why_tr": "Yaş be ile; have değil."
+  },
+  {
+   "type": "free",
+   "q": "Kendine 3 soru sor ve cevapla (ad, yaş, nereli) — soru + cevap şeklinde yaz.",
+   "min_words": 12,
+   "rubric_tr": "Soru kelimesi başta mı; fiil özneden önce mi; yaşta be kullanılmış mı."
+  }
+ ],
+ "speaking": {
+  "scenario_tr": "Bir tasarım konferansına kayıt yaptırıyorsun. Resepsiyondaki Sarah sana adını, nereli olduğunu, mesleğini, yaşını ve telefon numaranı soracak. Bir yerde anlamazsan 'Sorry?' de. Sonra roller değişsin: sen Sarah'ya en az 3 soru sor (adı, nereli, kaç yaşında).",
+  "role_en": "You are Sarah, a receptionist at a design conference in Istanbul, registering Uğur. Lesson focus: question words with be (What/Where/Who/How old), numbers 11-100, phone numbers. Ask one question at a time: name, where from, job, age, phone number (ask him to repeat a digit once). Then say 'Now you ask me!' and answer his questions briefly. One short sentence plus one question per turn. Only be-verb grammar.",
+  "opener_en": "Good morning! Welcome. What's your name, please?",
+  "targets": [
+   "It's Uğur.",
+   "I'm from Samsun, Turkey.",
+   "I'm a graphic designer.",
+   "I'm thirty.",
+   "It's 0532...",
+   "Sorry?",
+   "What's your name? / How old are you? / Where are you from?"
+  ],
+  "hints_tr": [
+   "Adını söyle",
+   "Nereli olduğunu söyle",
+   "Yaşını söyle: I'm thirty.",
+   "Numaranı rakam rakam söyle",
+   "Anlamazsan 'Sorry?' de",
+   "Sıra sana gelince 3 soru sor"
+  ],
+  "min_turns": 6
+ },
+ "homework": {
+  "written": {
+   "prompt_tr": "Bir arkadaşınla tanışma diyaloğu yaz: en az 3 soru (What/Where/How old) ve 3 cevap. Toplam 6 satır.",
+   "min_sentences": 6,
+   "model_en": "A: What's your name? B: I'm Zeynep. A: Where are you from? B: I'm from Samsun. A: How old are you? B: I'm twenty-eight."
+  },
+  "spoken": {
+   "prompt_tr": "Aşağıdaki 6 cümleyi sesli söyle (ya da yaz). Vurguya dikkat:",
+   "sentences": [
+    "What's your name?",
+    "Where are you from?",
+    "How old are you? I'm thirty.",
+    "What's your phone number?",
+    "It's oh-five-three-two, four-one-six.",
+    "Sorry? Seventy-eight."
+   ]
+  },
+  "habit_tr": "Bugün gördüğün 5 sayıyı (fiyat, saat, plaka) içinden İngilizce söyle."
+ },
+ "summary": {
+  "rule_md": "**Soru kelimesi + am/is/are + özne?** Soru kelimesi her zaman en başta: `What's your name?` · `Where are you from?` · `Who is he?` · `How old are you?`\n\n- Yaş: `I'm 30.` / `I'm 30 years old.` (have değil, be)\n- 13 vs 30: thir**TEEN** / **THIR**ty\n- Telefon: rakam rakam; 0 = 'oh'\n- Anlamadın: `Sorry?`",
+  "examples": [
+   {
+    "en": "What's your name? — It's Uğur.",
+    "tr": "Adın ne? — Uğur."
+   },
+   {
+    "en": "How old are you? — I'm thirty.",
+    "tr": "Kaç yaşındasın? — Otuz."
+   },
+   {
+    "en": "What's your phone number? — It's 0532 416 78 90.",
+    "tr": "Telefon numaran ne? — 0532 416 78 90."
+   }
+  ]
+ },
+ "adapt_note_tr": "Yarın ünitenin tekrar dersi: yeni gramer yok, 4/3/2 'kendini tanıt' anlatımı ve rol oyunu var."
+}

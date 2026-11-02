@@ -1,0 +1,752 @@
+{
+ "id": "a1-u1-l1",
+ "course": "A1",
+ "unit": 1,
+ "lesson": 1,
+ "n": 1,
+ "type": "lesson",
+ "title_tr": "Merhaba, ben Uğur",
+ "title_en": "Hello, I'm Uğur",
+ "date": "2026-11-02",
+ "minutes": 35,
+ "goals_tr": [
+  "Birine selam verip adını söyleyebileceksin: Hi, I'm Uğur.",
+  "'Nasılsın?' diye sorup cevap verebileceksin.",
+  "I am / you are ile olumlu, olumsuz ve soru cümlesi kurabileceksin.",
+  "0'dan 10'a kadar sayabileceksin."
+ ],
+ "prev_check": null,
+ "sections": [
+  {
+   "t": "text",
+   "h": "Bugün ne öğreniyoruz?",
+   "md": "İlk ders. Bugün İngilizcenin en küçük ama en çok kullanılan fiiliyle başlıyoruz: **to be**, yani 'olmak'. Önce bir Türkçe cümleye bak:\n\n*Ben tasarımcı**yım**.*\n\nTürkçede 'olmak' anlamını kelimenin sonuna eklediğimiz **-yım** ekiyle veririz. İngilizcede böyle bir ek yok. Onun yerine öznenin hemen arkasına küçük bir kelime koyarız:\n\n`I am a designer.`\n\nİşte bu `am`, Türkçedeki -ım/-im ekinin karşılığı. Yani kuralı tek cümleyle özetlersek: **Türkçe eki kelimeye yapıştırır, İngilizce onu ayrı bir kelime olarak araya koyar.**\n\nBugün sadece iki kişiyle çalışacağız: **ben** (`I`) ve **sen** (`you`). Yarın 'o' (he/she/it), öbür gün 'biz/onlar' gelecek. Acele yok; önce bu ikisini otomatik hale getireceğiz.\n\n- `I` → her zaman `am`\n- `you` → her zaman `are`"
+  },
+  {
+   "t": "note",
+   "kind": "turkce",
+   "md": "**Neden İngilizce bu fiili atlamaz?** İngilizcede bir cümle fiilsiz olamaz. 'Ben yorgunum' dediğinde Türkçe için fiil gerekmez, ek yeter. İngilizce `I tired.` dersen cümle havada kalır; dinleyen 'tamam, sen yorgun... ne?' diye bekler. `I **am** tired.` dediğinde cümle kapanır. Bu yüzden Türk öğrencilerin en sık hatası bu küçük fiili düşürmektir: ✗ `I designer.` ✓ `I am a designer.`"
+  },
+  {
+   "t": "examples",
+   "h": "I am / you are — örnekler",
+   "items": [
+    {
+     "en": "I am Uğur.",
+     "tr": "Ben Uğur'um."
+    },
+    {
+     "en": "I'm a designer.",
+     "tr": "Ben tasarımcıyım.",
+     "note": "I'm = I am; konuşmada hep kısa hali"
+    },
+    {
+     "en": "I'm from Samsun.",
+     "tr": "Samsunluyum."
+    },
+    {
+     "en": "I'm fine, thanks.",
+     "tr": "İyiyim, teşekkürler."
+    },
+    {
+     "en": "I'm not tired.",
+     "tr": "Yorgun değilim."
+    },
+    {
+     "en": "You are my friend.",
+     "tr": "Sen benim arkadaşımsın."
+    },
+    {
+     "en": "You're a good designer.",
+     "tr": "Sen iyi bir tasarımcısın."
+    },
+    {
+     "en": "Are you from Samsun?",
+     "tr": "Samsunlu musun?"
+    },
+    {
+     "en": "Are you OK? Yes, I am.",
+     "tr": "İyi misin? Evet, iyiyim."
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "h": "I ve you ile olumlu / olumsuz / soru",
+   "cols": [
+    "",
+    "Olumlu",
+    "Kısa",
+    "Olumsuz",
+    "Soru",
+    "Kısa cevap"
+   ],
+   "rows": [
+    [
+     "I",
+     "I am",
+     "I'm",
+     "I am not / I'm not",
+     "Am I?",
+     "Yes, I am. / No, I'm not."
+    ],
+    [
+     "you",
+     "you are",
+     "you're",
+     "you are not / you aren't",
+     "Are you?",
+     "Yes, I am. / No, I'm not."
+    ]
+   ]
+  },
+  {
+   "t": "text",
+   "h": "Soru nasıl yapılır? Fiil başa gelir",
+   "md": "Türkçede soru yapmak için **mı/mi** ekleriz: 'Samsunlu musun?'. İngilizcede soru eki yok; onun yerine fiil ile özne **yer değiştirir**:\n\n- Düz cümle: `You are from Samsun.`\n- Soru: `Are you from Samsun?`\n\nYani `are` öne geçti, hepsi bu. Türkçedeki 'mu' sesini de duyma: İngilizce soruda sesin sonunda **yükselir**.\n\nKısa cevaplar da önemli. Türkçede 'Evet.' yeter; İngilizcede çoğu zaman `Yes, I am.` deriz. Dikkat: soru `Are you...?` ile sorulsa da cevap **ben** olduğum için `I am` olur, `you are` değil.\n\n- `Are you tired?` → `Yes, I am.` / `No, I'm not.`\n- `Are you a designer?` → `Yes, I am.`\n\nKısa cevabın olumlusunda kısaltma **yapılmaz**: ✗ `Yes, I'm.` ✓ `Yes, I am.`"
+  },
+  {
+   "t": "dialogue",
+   "h": "Diyalog: Bir tasarım etkinliğinde",
+   "lines": [
+    {
+     "who": "Emma",
+     "en": "Hi! I'm Emma.",
+     "tr": "Selam! Ben Emma."
+    },
+    {
+     "who": "Uğur",
+     "en": "Hello, Emma. I'm Uğur.",
+     "tr": "Merhaba Emma. Ben Uğur."
+    },
+    {
+     "who": "Emma",
+     "en": "Nice to meet you, Uğur.",
+     "tr": "Tanıştığımıza memnun oldum, Uğur."
+    },
+    {
+     "who": "Uğur",
+     "en": "Nice to meet you too.",
+     "tr": "Ben de memnun oldum."
+    },
+    {
+     "who": "Emma",
+     "en": "How are you?",
+     "tr": "Nasılsın?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm fine, thanks. And you?",
+     "tr": "İyiyim, teşekkürler. Sen?"
+    },
+    {
+     "who": "Emma",
+     "en": "I'm good. Are you a designer?",
+     "tr": "İyiyim. Tasarımcı mısın?"
+    },
+    {
+     "who": "Uğur",
+     "en": "Yes, I am. I'm a graphic designer.",
+     "tr": "Evet. Grafik tasarımcıyım."
+    },
+    {
+     "who": "Emma",
+     "en": "Great! I'm a designer too.",
+     "tr": "Harika! Ben de tasarımcıyım."
+    },
+    {
+     "who": "Uğur",
+     "en": "Really? That's nice.",
+     "tr": "Gerçekten mi? Ne güzel."
+    },
+    {
+     "who": "Emma",
+     "en": "OK, see you later, Uğur!",
+     "tr": "Tamam, sonra görüşürüz Uğur!"
+    },
+    {
+     "who": "Uğur",
+     "en": "Bye, Emma!",
+     "tr": "Hoşça kal Emma!"
+    }
+   ]
+  },
+  {
+   "t": "text",
+   "h": "Selamlaşma kalıpları: saate ve samimiyete göre",
+   "md": "İngilizcede selam birkaç çeşittir; hepsini ezberle, sonra duruma göre seç:\n\n- `Hi` / `Hello` → her zaman, herkese. `Hi` biraz daha samimi.\n- `Good morning` → sabah (öğlene kadar). Ajansa girerken bu.\n- `Good afternoon` → öğleden sonra. `Good evening` → akşam.\n- `Good night` → **selam değil, veda**: yatmaya giderken ya da gece ayrılırken.\n- `Bye` / `Goodbye` / `See you` → ayrılırken.\n\n**How are you?** sorusuna standart cevap: `I'm fine, thanks. And you?` Türkçedeki gibi burada da kimse gerçekten derdini anlatmaz; bu bir nezaket kalıbıdır. `I'm good.` ve `Not bad.` de çok yaygın.\n\n**Nice to meet you.** sadece ilk tanışmada söylenir. Ertesi gün aynı kişiye tekrar söylemezsin; o zaman `Good to see you.` dersin."
+  },
+  {
+   "t": "table",
+   "h": "Sayılar 0-10",
+   "cols": [
+    "Sayı",
+    "İngilizce",
+    "Okunuşu (yaklaşık)"
+   ],
+   "rows": [
+    [
+     "0",
+     "zero",
+     "ziro"
+    ],
+    [
+     "1",
+     "one",
+     "van"
+    ],
+    [
+     "2",
+     "two",
+     "tu"
+    ],
+    [
+     "3",
+     "three",
+     "tri (dil dişlerin arasında)"
+    ],
+    [
+     "4",
+     "four",
+     "for"
+    ],
+    [
+     "5",
+     "five",
+     "fayv"
+    ],
+    [
+     "6",
+     "six",
+     "siks"
+    ],
+    [
+     "7",
+     "seven",
+     "sevın"
+    ],
+    [
+     "8",
+     "eight",
+     "eyt"
+    ],
+    [
+     "9",
+     "nine",
+     "nayn"
+    ],
+    [
+     "10",
+     "ten",
+     "ten"
+    ]
+   ]
+  },
+  {
+   "t": "pronounce",
+   "h": "Telaffuz: /h/ ve /aɪ/",
+   "items": [
+    {
+     "en": "Hi",
+     "hint": "'hay' — baştaki h nefesli ve net; Türkçedeki h'den biraz daha havalı"
+    },
+    {
+     "en": "Hello",
+     "hint": "'he-LO' — vurgu ikinci hecede, ilk hece hafif"
+    },
+    {
+     "en": "I'm",
+     "hint": "'aym' — tek hece; 'ay-em' diye ikiye bölme"
+    },
+    {
+     "en": "fine",
+     "hint": "'fayn' — 'i' harfi burada 'ay' okunur, 'fin' değil"
+    },
+    {
+     "en": "nice",
+     "hint": "'nays' — yine 'ay'; sonda 's', 'z' değil"
+    },
+    {
+     "en": "nine",
+     "hint": "'nayn' — fine ile kafiyeli"
+    },
+    {
+     "en": "how",
+     "hint": "'hav' — baştaki h'yi yutma; 'av' değil"
+    }
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Sık hatalar (Türkçeden gelenler)",
+   "items": [
+    {
+     "wrong": "I designer.",
+     "right": "I am a designer.",
+     "why": "Türkçe '-yım' eki İngilizcede ayrı kelime: am. Ayrıca meslek önünde 'a' gerekir (bunu 2. ünitede ayrıntılı göreceğiz)."
+    },
+    {
+     "wrong": "I am Uğur, I am 30 years.",
+     "right": "I'm Uğur, I'm 30 years old.",
+     "why": "Yaşta 'old' düşmez; ya 'I'm 30' ya da 'I'm 30 years old'."
+    },
+    {
+     "wrong": "You are from Samsun?",
+     "right": "Are you from Samsun?",
+     "why": "Soruda fiil başa gelir. Düz cümleyi sadece sesle soru yapmak günlük konuşmada olur ama şimdilik kuralı öğren."
+    },
+    {
+     "wrong": "Yes, I'm.",
+     "right": "Yes, I am.",
+     "why": "Kısa cevabın olumlusunda kısaltma yapılmaz; cümle 'am' ile bitemez kısaltılmış halde."
+    },
+    {
+     "wrong": "Good night! (sabah karşılaşınca)",
+     "right": "Good morning!",
+     "why": "Good night veda sözüdür, selam değil."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "hello",
+   "en": "hello",
+   "tr": "merhaba",
+   "pos": "interjection",
+   "ipa": "həˈloʊ",
+   "ex_en": "Hello, I'm Uğur.",
+   "ex_tr": "Merhaba, ben Uğur."
+  },
+  {
+   "id": "hi",
+   "en": "hi",
+   "tr": "selam",
+   "pos": "interjection",
+   "ipa": "haɪ",
+   "ex_en": "Hi, Emma!",
+   "ex_tr": "Selam Emma!"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye / bye",
+   "tr": "hoşça kal",
+   "pos": "interjection",
+   "ipa": "ɡʊdˈbaɪ",
+   "ex_en": "Bye! See you tomorrow.",
+   "ex_tr": "Hoşça kal! Yarın görüşürüz."
+  },
+  {
+   "id": "name",
+   "en": "name",
+   "tr": "ad, isim",
+   "pos": "noun",
+   "ipa": "neɪm",
+   "ex_en": "My name is Uğur.",
+   "ex_tr": "Benim adım Uğur."
+  },
+  {
+   "id": "nice_to_meet_you",
+   "en": "Nice to meet you.",
+   "tr": "Tanıştığımıza memnun oldum.",
+   "pos": "phrase",
+   "ipa": "naɪs tə ˈmiːt juː",
+   "ex_en": "Nice to meet you, Emma.",
+   "ex_tr": "Tanıştığımıza memnun oldum Emma."
+  },
+  {
+   "id": "how_are_you",
+   "en": "How are you?",
+   "tr": "Nasılsın?",
+   "pos": "phrase",
+   "ipa": "haʊ ɑːr juː",
+   "ex_en": "How are you? — I'm fine, thanks.",
+   "ex_tr": "Nasılsın? — İyiyim, teşekkürler."
+  },
+  {
+   "id": "fine",
+   "en": "fine",
+   "tr": "iyi (hal)",
+   "pos": "adjective",
+   "ipa": "faɪn",
+   "ex_en": "I'm fine, thanks.",
+   "ex_tr": "İyiyim, teşekkürler."
+  },
+  {
+   "id": "thanks",
+   "en": "thanks / thank you",
+   "tr": "teşekkürler",
+   "pos": "interjection",
+   "ipa": "θæŋks",
+   "ex_en": "Thanks, Emma!",
+   "ex_tr": "Teşekkürler Emma!"
+  },
+  {
+   "id": "designer",
+   "en": "designer",
+   "tr": "tasarımcı",
+   "pos": "noun",
+   "ipa": "dɪˈzaɪnər",
+   "ex_en": "I'm a graphic designer.",
+   "ex_tr": "Ben grafik tasarımcıyım."
+  },
+  {
+   "id": "friend",
+   "en": "friend",
+   "tr": "arkadaş",
+   "pos": "noun",
+   "ipa": "frend",
+   "ex_en": "You are my friend.",
+   "ex_tr": "Sen benim arkadaşımsın."
+  },
+  {
+   "id": "tired",
+   "en": "tired",
+   "tr": "yorgun",
+   "pos": "adjective",
+   "ipa": "ˈtaɪərd",
+   "ex_en": "I'm tired today.",
+   "ex_tr": "Bugün yorgunum."
+  },
+  {
+   "id": "yes",
+   "en": "yes",
+   "tr": "evet",
+   "pos": "adverb",
+   "ipa": "jes",
+   "ex_en": "Yes, I am.",
+   "ex_tr": "Evet, öyleyim."
+  },
+  {
+   "id": "no",
+   "en": "no",
+   "tr": "hayır",
+   "pos": "adverb",
+   "ipa": "noʊ",
+   "ex_en": "No, I'm not.",
+   "ex_tr": "Hayır, değilim."
+  },
+  {
+   "id": "good_morning",
+   "en": "Good morning.",
+   "tr": "Günaydın.",
+   "pos": "phrase",
+   "ipa": "ɡʊd ˈmɔːrnɪŋ",
+   "ex_en": "Good morning, everyone!",
+   "ex_tr": "Günaydın herkese!"
+  },
+  {
+   "id": "see_you",
+   "en": "See you.",
+   "tr": "Görüşürüz.",
+   "pos": "phrase",
+   "ipa": "siː juː",
+   "ex_en": "See you tomorrow!",
+   "ex_tr": "Yarın görüşürüz!"
+  }
+ ],
+ "listening": {
+  "h": "Dinleme: Emma kendini tanıtıyor",
+  "text_en": "Hello! My name is Emma. I'm from London. I'm a designer. I'm thirty years old. How are you? I'm fine, thanks. Nice to meet you!",
+  "text_tr": "Merhaba! Benim adım Emma. Londralıyım. Tasarımcıyım. Otuz yaşındayım. Nasılsın? Ben iyiyim, teşekkürler. Tanıştığımıza memnun oldum!",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "Emma nereli?",
+    "options": [
+     "Samsun",
+     "London",
+     "Istanbul"
+    ],
+    "answer": "London",
+    "why_tr": "'I'm from London.' dedi."
+   },
+   {
+    "type": "choice",
+    "q": "Emma'nın mesleği ne?",
+    "options": [
+     "teacher (öğretmen)",
+     "designer (tasarımcı)",
+     "doctor (doktor)"
+    ],
+    "answer": "designer (tasarımcı)",
+    "why_tr": "'I'm a designer.'"
+   },
+   {
+    "type": "choice",
+    "q": "Emma kaç yaşında?",
+    "options": [
+     "13",
+     "30",
+     "33"
+    ],
+    "answer": "30",
+    "why_tr": "'thirty' = 30. 'thirteen' (13) ile karıştırma: thirty'de vurgu başta (THIR-ty), thirteen'de sonda (thir-TEEN)."
+   }
+  ]
+ },
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "I ___ Uğur.",
+   "options": [
+    "am",
+    "are",
+    "is"
+   ],
+   "answer": "am",
+   "why_tr": "Özne I → her zaman am."
+  },
+  {
+   "type": "choice",
+   "q": "You ___ my friend.",
+   "options": [
+    "am",
+    "are",
+    "is"
+   ],
+   "answer": "are",
+   "why_tr": "Özne you → are."
+  },
+  {
+   "type": "choice",
+   "q": "___ you from Samsun?",
+   "options": [
+    "Am",
+    "Are",
+    "You"
+   ],
+   "answer": "Are",
+   "why_tr": "Soruda fiil başa gelir: Are you...?"
+  },
+  {
+   "type": "choice",
+   "q": "Are you tired? — Yes, ___.",
+   "options": [
+    "I am",
+    "I'm",
+    "you are"
+   ],
+   "answer": "I am",
+   "why_tr": "Kısa cevap: Yes, I am. Kısaltma (I'm) olumlu kısa cevapta kullanılmaz; cevap 'ben' hakkında olduğu için you are değil."
+  },
+  {
+   "type": "fill",
+   "q": "Hello, I ___ (be) a designer.",
+   "answer": "am",
+   "alt": [
+    "'m"
+   ],
+   "why_tr": "I + am. Konuşmada I'm."
+  },
+  {
+   "type": "fill",
+   "q": "___ you OK? — Yes, I am.",
+   "answer": "Are",
+   "alt": [
+    "are"
+   ],
+   "why_tr": "Soru: Are you...?"
+  },
+  {
+   "type": "order",
+   "words": [
+    "from",
+    "I'm",
+    "Samsun"
+   ],
+   "answer": "I'm from Samsun",
+   "why_tr": "Özne + fiil + geri kalanı: I'm (özne+fiil) from Samsun."
+  },
+  {
+   "type": "order",
+   "words": [
+    "you",
+    "Are",
+    "designer",
+    "a",
+    "?"
+   ],
+   "answer": "Are you a designer?",
+   "why_tr": "Soruda fiil (Are) başa, sonra özne (you)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "meet",
+    "to",
+    "Nice",
+    "you"
+   ],
+   "answer": "Nice to meet you",
+   "why_tr": "Kalıp: Nice to meet you. Bütün olarak ezberle."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "hello",
+     "merhaba"
+    ],
+    [
+     "thanks",
+     "teşekkürler"
+    ],
+    [
+     "tired",
+     "yorgun"
+    ],
+    [
+     "friend",
+     "arkadaş"
+    ],
+    [
+     "see you",
+     "görüşürüz"
+    ]
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Ben Uğur'um.",
+   "answer": "I'm Uğur.",
+   "alt": [
+    "I am Uğur.",
+    "My name is Uğur.",
+    "My name's Uğur."
+   ],
+   "why_tr": "Ben + olmak eki → I am / I'm."
+  },
+  {
+   "type": "translate",
+   "q": "Nasılsın? İyiyim, teşekkürler.",
+   "answer": "How are you? I'm fine, thanks.",
+   "alt": [
+    "How are you? I am fine, thanks.",
+    "How are you? I'm fine, thank you.",
+    "How are you? I'm good, thanks."
+   ],
+   "why_tr": "İki kalıp birlikte. 'And you?' eklersen daha doğal."
+  },
+  {
+   "type": "translate",
+   "q": "Yorgun değilim.",
+   "answer": "I'm not tired.",
+   "alt": [
+    "I am not tired."
+   ],
+   "why_tr": "Olumsuz: am + not. 'I not tired' olmaz; fiil düşmez."
+  },
+  {
+   "type": "listen",
+   "say": "Hi, I'm Emma. Nice to meet you.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "Hi, I'm Emma. Nice to meet you.",
+   "alt": [
+    "Hi I'm Emma. Nice to meet you.",
+    "Hi, I am Emma. Nice to meet you."
+   ]
+  },
+  {
+   "type": "listen",
+   "say": "Are you from Samsun?",
+   "q": "Ne duydun? Yaz.",
+   "answer": "Are you from Samsun?",
+   "alt": [
+    "Are you from Samsun"
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "I'm fine, thanks. And you?",
+   "q": "Dinle ve tekrar et. 'aym fayn' — iki heceyi bölme."
+  },
+  {
+   "type": "speak",
+   "say": "Nice to meet you.",
+   "q": "Dinle ve tekrar et. 'nays tı MİİT yu' — vurgu meet'te."
+  },
+  {
+   "type": "correct",
+   "q": "I designer.",
+   "answer": "I am a designer.",
+   "alt": [
+    "I'm a designer."
+   ],
+   "why_tr": "Fiil (am) ve meslek önündeki 'a' eksik. Türkçedeki ek, İngilizcede ayrı kelimedir."
+  },
+  {
+   "type": "correct",
+   "q": "You are from Samsun?",
+   "answer": "Are you from Samsun?",
+   "alt": [
+    "Are you from Samsun"
+   ],
+   "why_tr": "Soru için 'are' başa gelir."
+  },
+  {
+   "type": "free",
+   "q": "İki cümleyle kendini tanıt: adın ve mesleğin ya da şehrin.",
+   "min_words": 6,
+   "rubric_tr": "I am / I'm kullanılmış mı; fiil düşmüş mü; meslek önünde 'a' var mı; büyük harfle I."
+  }
+ ],
+ "speaking": {
+  "scenario_tr": "İstanbul'da bir tasarım etkinliğindesin. Emma adında İngiliz bir tasarımcı yanına geliyor. Selamlaş, adını söyle, nasıl olduğunu söyle ve ona da sor, tasarımcı olduğunu söyle, sonunda vedalaş. İlk gün: yazarak cevap vermen tamamen normal.",
+  "role_en": "You are Emma, a friendly British designer meeting Uğur at a design meetup in Istanbul. This is his FIRST English lesson. Use only: Hi/Hello, I'm..., Nice to meet you, How are you?, Are you...?, Yes/No, Bye. One short sentence plus one question per turn. Never use grammar beyond I am / you are. If he writes in Turkish, gently give the English in brackets and continue.",
+  "opener_en": "Hi! I'm Emma. What's your name?",
+  "targets": [
+   "I'm Uğur.",
+   "Nice to meet you.",
+   "I'm fine, thanks. And you?",
+   "Yes, I am. / No, I'm not.",
+   "I'm a designer.",
+   "Bye! See you."
+  ],
+  "hints_tr": [
+   "Adını söyle: I'm ...",
+   "Memnun oldum de",
+   "Nasıl olduğunu söyle, sonra 'And you?' diye geri sor",
+   "Tasarımcı mısın sorusuna kısa cevap ver: Yes, I am.",
+   "Vedalaş: Bye, see you!"
+  ],
+  "min_turns": 6
+ },
+ "homework": {
+  "written": {
+   "prompt_tr": "5 cümleyle kendini tanıt: adın, şehrin, mesleğin, nasıl olduğun ve yorgun olup olmadığın. Sadece I am / I'm kullan.",
+   "min_sentences": 5,
+   "model_en": "Hello! I'm Uğur. I'm from Samsun. I'm a graphic designer. I'm fine today. I'm not tired."
+  },
+  "spoken": {
+   "prompt_tr": "Aşağıdaki 6 cümleyi sesli söyle (ya da yaz). Her birini önce dinle, sonra sen söyle:",
+   "sentences": [
+    "Hi, I'm Uğur.",
+    "Nice to meet you.",
+    "How are you?",
+    "I'm fine, thanks. And you?",
+    "I'm a designer.",
+    "Bye! See you tomorrow."
+   ]
+  },
+  "habit_tr": "Yarın sabah ajansa girerken bir kişiye sesli 'Good morning!' de. Akşam çıkarken 'Bye, see you!'."
+ },
+ "summary": {
+  "rule_md": "**I am** (I'm) · **you are** (you're). Türkçedeki -yım/-sın ekleri İngilizcede ayrı bir kelime olur ve asla düşmez.\n\n- Olumsuz: `I'm not` · `you aren't`\n- Soru: fiil başa → `Are you...?`\n- Kısa cevap: `Yes, I am.` / `No, I'm not.`\n- Selam: Hi, Hello, Good morning · Veda: Bye, See you · İlk tanışma: Nice to meet you.",
+  "examples": [
+   {
+    "en": "Hi, I'm Uğur. I'm from Samsun.",
+    "tr": "Selam, ben Uğur. Samsunluyum."
+   },
+   {
+    "en": "How are you? — I'm fine, thanks. And you?",
+    "tr": "Nasılsın? — İyiyim, teşekkürler. Sen?"
+   },
+   {
+    "en": "Are you a designer? — Yes, I am.",
+    "tr": "Tasarımcı mısın? — Evet."
+   }
+  ]
+ },
+ "adapt_note_tr": "İlk ders: önceki ders kontrolü yok, tüm alıştırmalar bugünün konusundan. Yarından itibaren her derste 3-4 soru önceki günlerden gelecek."
+}

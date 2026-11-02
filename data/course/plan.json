@@ -1,0 +1,91 @@
+{
+  "courses": [
+    {
+      "id": "A1",
+      "title_tr": "A1 · Başlangıç",
+      "title_en": "A1 · Beginner",
+      "start_date": "2026-11-02",
+      "units": [
+        {
+          "id": "u1", "n": 1, "title_tr": "Merhaba! Tanışma", "title_en": "Hello!",
+          "can_do_tr": "Selamlaşır, kendini tanıtır, nereli olduğunu, yaşını ve telefon numaranı söyler; aynı şeyleri karşındakine sorarsın.",
+          "lessons": [
+            { "id": "a1-u1-l1", "n": 1, "title_tr": "Merhaba, ben Uğur", "title_en": "Hello, I'm Uğur", "grammar": ["g_be"], "sound_tr": "/h/ ve /aɪ/ (hi, I'm)" },
+            { "id": "a1-u1-l2", "n": 2, "title_tr": "Nerelisin?", "title_en": "Where are you from?", "grammar": ["g_be"], "sound_tr": "/ɪ/ – /iː/ (ship / sheep, it / eat)" },
+            { "id": "a1-u1-l3", "n": 3, "title_tr": "Biz, siz, onlar", "title_en": "We, you, they", "grammar": ["g_be"], "sound_tr": "/dʒ/ ve /tʃ/ (job, German, teacher)" },
+            { "id": "a1-u1-l4", "n": 4, "title_tr": "Soru kelimeleri ve sayılar", "title_en": "Question words and numbers", "grammar": ["g_question_words", "g_numbers"], "sound_tr": "cümle vurgusu (WHAT's your NAME?)" },
+            { "id": "a1-u1-l5", "n": 5, "title_tr": "Haftanın tekrarı: ilk tanışma", "title_en": "Review: meeting someone", "grammar": ["g_be", "g_question_words", "g_numbers"], "sound_tr": "haftanın sesleri karışık + 4/3/2 anlatım" }
+          ],
+          "exam_id": "a1-u1-exam"
+        },
+        {
+          "id": "u2", "n": 2, "title_tr": "Benim dünyam", "title_en": "My world",
+          "can_do_tr": "Etrafındaki nesneleri, ailenin üyelerini ve sahip olduklarını birkaç basit cümleyle anlatır; fiyat sorar.",
+          "lessons": [
+            { "id": "a1-u2-l1", "n": 1, "title_tr": "Bir kalem, iki kalem", "title_en": "A pen, two pens", "grammar": ["g_articles", "g_plurals"], "sound_tr": "çoğul -s: /s/ /z/ /ɪz/" },
+            { "id": "a1-u2-l2", "n": 2, "title_tr": "Bu ne? Şu kaç para?", "title_en": "What's this? How much is that?", "grammar": ["g_this_that"], "sound_tr": "/ð/ (this, that, the)" },
+            { "id": "a1-u2-l3", "n": 3, "title_tr": "Ailem ve benim", "title_en": "My family", "grammar": ["g_possessives"], "sound_tr": "/ʌ/ (mother, brother)" },
+            { "id": "a1-u2-l4", "n": 4, "title_tr": "Büyük ev, küçük araba", "title_en": "A big house, a small car", "grammar": ["g_adjectives"], "sound_tr": "/æ/ (bad, black, cat)" },
+            { "id": "a1-u2-l5", "n": 5, "title_tr": "Haftanın tekrarı: aile fotoğrafı", "title_en": "Review: a family photo", "grammar": ["g_articles", "g_plurals", "g_this_that", "g_possessives", "g_adjectives"], "sound_tr": "karışık" }
+          ],
+          "exam_id": "a1-u2-exam"
+        },
+        {
+          "id": "u3", "n": 3, "title_tr": "Her gün", "title_en": "Every day",
+          "can_do_tr": "Günlük rutinini, işini ve saatleri anlatır; başkasına rutinini sorar.",
+          "lessons": [
+            { "id": "a1-u3-l1", "n": 1, "title_tr": "Çalışıyorum, yaşıyorum", "title_en": "I work, I live", "grammar": ["g_present_simple"], "sound_tr": "/w/ – /v/ (work, very)" },
+            { "id": "a1-u3-l2", "n": 2, "title_tr": "Kahve içer misin?", "title_en": "Do you drink coffee?", "grammar": ["g_present_simple"], "sound_tr": "zayıf 'do you' /djə/" },
+            { "id": "a1-u3-l3", "n": 3, "title_tr": "Saat kaç? Günüm nasıl?", "title_en": "What time is it? My day", "grammar": ["g_time"], "sound_tr": "/ɜː/ (work, Thursday, thirty)" },
+            { "id": "a1-u3-l4", "n": 4, "title_tr": "Her zaman, bazen, asla", "title_en": "Always, sometimes, never", "grammar": ["g_adverbs_frequency", "g_question_words"], "sound_tr": "cümle ritmi" },
+            { "id": "a1-u3-l5", "n": 5, "title_tr": "Haftanın tekrarı: tipik bir gün", "title_en": "Review: a typical day", "grammar": ["g_present_simple", "g_time", "g_adverbs_frequency"], "sound_tr": "karışık + 4/3/2" }
+          ],
+          "exam_id": "a1-u3-exam"
+        },
+        {
+          "id": "u4", "n": 4, "title_tr": "Çevremdeki insanlar", "title_en": "People around me",
+          "can_do_tr": "Bir arkadaşını veya aile üyesini anlatır; sevdiği ve sevmediği şeyleri söyler.",
+          "lessons": [
+            { "id": "a1-u4-l1", "n": 1, "title_tr": "O çalışır, o gider", "title_en": "She works, he goes", "grammar": ["g_present_simple_3rd"], "sound_tr": "3. tekil -s: /s/ /z/ /ɪz/" },
+            { "id": "a1-u4-l2", "n": 2, "title_tr": "O ... mu?", "title_en": "Does she...?", "grammar": ["g_present_simple_3rd"], "sound_tr": "/θ/ (three, thanks, think)" },
+            { "id": "a1-u4-l3", "n": 3, "title_tr": "Seviyorum, bayılıyorum, nefret ediyorum", "title_en": "I like, I love, I hate", "grammar": ["g_like_ing"], "sound_tr": "/ŋ/ (-ing)" },
+            { "id": "a1-u4-l4", "n": 4, "title_tr": "Onu seviyor musun?", "title_en": "Do you like it?", "grammar": ["g_object_pronouns"], "sound_tr": "zayıf him/her" },
+            { "id": "a1-u4-l5", "n": 5, "title_tr": "Haftanın tekrarı: bir arkadaşımı tanıtıyorum", "title_en": "Review: introducing a friend", "grammar": ["g_present_simple_3rd", "g_like_ing", "g_object_pronouns"], "sound_tr": "karışık" }
+          ],
+          "exam_id": "a1-u4-exam"
+        },
+        {
+          "id": "u5", "n": 5, "title_tr": "Dışarıda", "title_en": "Out and about",
+          "can_do_tr": "Bir odayı ve şehri anlatır, basit yol tarifi anlar, kafede sipariş verir, rica eder.",
+          "lessons": [
+            { "id": "a1-u5-l1", "n": 1, "title_tr": "Var / yok", "title_en": "There is, there are", "grammar": ["g_there_is"], "sound_tr": "/eə/ (there, where)" },
+            { "id": "a1-u5-l2", "n": 2, "title_tr": "Banka nerede?", "title_en": "Where's the bank?", "grammar": ["g_prepositions_place"], "sound_tr": "zayıf 'the' /ðə/" },
+            { "id": "a1-u5-l3", "n": 3, "title_tr": "Bir kahve alabilir miyim?", "title_en": "Can I have a coffee?", "grammar": ["g_can", "g_would_like"], "sound_tr": "can /kən/ – can't /kænt/" },
+            { "id": "a1-u5-l4", "n": 4, "title_tr": "Sola dön, lütfen tekrar et", "title_en": "Turn left, please repeat", "grammar": ["g_imperatives"], "sound_tr": "/oʊ/ (go, no, home)" },
+            { "id": "a1-u5-l5", "n": 5, "title_tr": "Haftanın tekrarı: kafe ve şehir", "title_en": "Review: café and city", "grammar": ["g_there_is", "g_prepositions_place", "g_can", "g_imperatives"], "sound_tr": "karışık" }
+          ],
+          "exam_id": "a1-u5-exam"
+        },
+        {
+          "id": "u6", "n": 6, "title_tr": "Bu hafta sonu", "title_en": "This weekend",
+          "can_do_tr": "Şu an ne yaptığını, dün nerede olduğunu ve hafta sonu planını söyler (A2 köprüsü).",
+          "lessons": [
+            { "id": "a1-u6-l1", "n": 1, "title_tr": "Şu an ne yapıyorsun?", "title_en": "What are you doing now?", "grammar": ["g_present_continuous"], "sound_tr": "/ɪŋ/ ve bağlama (what are → /wʌtər/)" },
+            { "id": "a1-u6-l2", "n": 2, "title_tr": "Çalışırım / bugün çalışıyorum", "title_en": "I work / I'm working today", "grammar": ["g_present_continuous", "g_present_simple"], "sound_tr": "/aʊ/ (now, how)" },
+            { "id": "a1-u6-l3", "n": 3, "title_tr": "Dün neredeydin?", "title_en": "Where were you yesterday?", "grammar": ["g_was_were"], "sound_tr": "zayıf was /wəz/" },
+            { "id": "a1-u6-l4", "n": 4, "title_tr": "Hafta sonu ne yapacaksın?", "title_en": "What are you going to do?", "grammar": ["g_going_to"], "sound_tr": "/ˈɡoʊɪŋ tə/ (gonna değil)" },
+            { "id": "a1-u6-l5", "n": 5, "title_tr": "Büyük tekrar ve 6 haftalık karne", "title_en": "Big review", "grammar": ["g_present_continuous", "g_was_were", "g_going_to"], "sound_tr": "karışık" }
+          ],
+          "exam_id": "a1-u6-exam"
+        }
+      ]
+    }
+  ],
+  "weekly": {
+    "mon_fri": "lesson",
+    "sat": "speaking_test",
+    "sun": "review",
+    "minutes": { "lesson": 35, "speaking_test": 20, "review": 25 },
+    "note_tr": "Hafta içi her gün bir tam ders (30-35 dk). Cumartesi konuşma sınavı + haftanın kalıplarını sesli tekrar (15-20 dk). Pazar tekrar günü: tüm bekleyen kelimeler, karışık alıştırma, ünite sınavı ve haftalık karne (20-25 dk). Kaçırılan ders ertesi güne kayar, sınav yine pazar yapılır."
+  }
+}

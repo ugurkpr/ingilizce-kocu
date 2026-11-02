@@ -1,0 +1,727 @@
+{
+ "id": "a1-u1-l5",
+ "course": "A1",
+ "unit": 1,
+ "lesson": 5,
+ "n": 5,
+ "type": "lesson",
+ "title_tr": "Haftanın tekrarı: ilk tanışma",
+ "title_en": "Review: meeting someone",
+ "date": "2026-11-06",
+ "minutes": 35,
+ "goals_tr": [
+  "Bu haftanın tamamını tek bir konuşmada kullanabileceksin: selam, ad, nereli, meslek, yaş, veda.",
+  "Kendini 90 saniye → 60 saniye → 45 saniye içinde, gittikçe daha akıcı tanıtabileceksin (4/3/2).",
+  "to be tablosunu bakmadan, hatasız yazabileceksin.",
+  "Yarınki konuşma sınavına hazır olacaksın."
+ ],
+ "prev_check": {
+  "homework_feedback_md": null,
+  "score": null,
+  "quiz": [
+   {
+    "type": "choice",
+    "q": "___ old is your boss?",
+    "options": [
+     "What",
+     "How",
+     "Who"
+    ],
+    "answer": "How",
+    "why_tr": "Yaş → How old."
+   },
+   {
+    "type": "order",
+    "words": [
+     "name",
+     "What's",
+     "your",
+     "?"
+    ],
+    "answer": "What's your name?",
+    "why_tr": "Soru kelimesi başta."
+   },
+   {
+    "type": "choice",
+    "q": "I'm 30 ___.",
+    "options": [
+     "years",
+     "old",
+     "years old"
+    ],
+    "answer": "years old",
+    "why_tr": "'years' varsa 'old' şart (ya da sadece I'm 30)."
+   },
+   {
+    "type": "fill",
+    "q": "What's your phone ___?",
+    "answer": "number",
+    "why_tr": "phone number."
+   },
+   {
+    "type": "choice",
+    "q": "40 = ?",
+    "options": [
+     "fourteen",
+     "forty",
+     "four-ten"
+    ],
+    "answer": "forty",
+    "why_tr": "forty; fourteen 14."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "t": "text",
+   "h": "Bu hafta ne yaptık?",
+   "md": "Dört günde İngilizcenin iskeletini kurdun. Bugün yeni gramer yok; bildiklerini **daha hızlı ve daha otomatik** kullanmayı çalışacağız. Araştırmaların en net bulgularından biri şu: akıcılık, yeni şey öğrenerek değil, **bildiğin şeyi tekrar tekrar kullanarak** gelir.\n\nHaftanın özeti tek bakışta:\n\n1. **Pazartesi:** `I am` / `you are` · selamlaşma · Nice to meet you · 0-10\n2. **Salı:** `he / she / it is` · Where are you from? · ülkeler\n3. **Çarşamba:** `we / you / they are` · milliyetler · kısa cevaplar\n4. **Perşembe:** What / Where / Who / How old · 11-100 · telefon numarası\n\nBunların hepsi tek bir fiile dayanıyor: **to be**. Bu fiille İngilizcede kim olduğunu, nereli olduğunu, ne iş yaptığını, kaç yaşında olduğunu, nasıl olduğunu ve etrafındakilerin kim olduğunu anlatabiliyorsun. Bu, bir tanışma konuşmasının tamamı demek."
+  },
+  {
+   "t": "table",
+   "h": "Haftanın tablosu: to be (bakmadan yazmayı dene)",
+   "cols": [
+    "Özne",
+    "+",
+    "−",
+    "?",
+    "Kısa cevap"
+   ],
+   "rows": [
+    [
+     "I",
+     "I'm",
+     "I'm not",
+     "Am I?",
+     "Yes, I am."
+    ],
+    [
+     "you",
+     "you're",
+     "you aren't",
+     "Are you?",
+     "Yes, I am. / Yes, we are."
+    ],
+    [
+     "he / she / it",
+     "he's",
+     "he isn't",
+     "Is he?",
+     "Yes, he is."
+    ],
+    [
+     "we",
+     "we're",
+     "we aren't",
+     "Are we?",
+     "Yes, we are."
+    ],
+    [
+     "they",
+     "they're",
+     "they aren't",
+     "Are they?",
+     "Yes, they are."
+    ]
+   ]
+  },
+  {
+   "t": "examples",
+   "h": "Haftanın cümleleri: hepsini sesli oku",
+   "items": [
+    {
+     "en": "Hi, I'm Uğur. Nice to meet you.",
+     "tr": "Selam, ben Uğur. Memnun oldum."
+    },
+    {
+     "en": "I'm from Samsun. It's in the north of Turkey.",
+     "tr": "Samsunluyum. Türkiye'nin kuzeyinde."
+    },
+    {
+     "en": "She's a designer. She's from Spain.",
+     "tr": "O tasarımcı. İspanyalı."
+    },
+    {
+     "en": "We're busy, but we're happy.",
+     "tr": "Meşgulüz ama mutluyuz."
+    },
+    {
+     "en": "They aren't designers. They're clients.",
+     "tr": "Onlar tasarımcı değil. Müşteri."
+    },
+    {
+     "en": "What's your name? Where are you from?",
+     "tr": "Adın ne? Nerelisin?"
+    },
+    {
+     "en": "How old are you? — I'm thirty.",
+     "tr": "Kaç yaşındasın? — Otuz."
+    },
+    {
+     "en": "Sorry? Slowly, please.",
+     "tr": "Efendim? Yavaş lütfen."
+    }
+   ]
+  },
+  {
+   "t": "text",
+   "h": "Bir tanışma konuşmasının haritası",
+   "md": "Yarın cumartesi, ilk konuşma sınavın. Korkulacak bir şey yok: bu haftanın kalıplarını bir sıraya diziyoruz. Bir tanışma konuşması hemen hemen her zaman aynı yolu izler:\n\n1. **Selam** → `Hi! / Hello! / Good morning.`\n2. **Ad** → `I'm Uğur.` / `What's your name?`\n3. **Memnuniyet** → `Nice to meet you.` → `Nice to meet you too.`\n4. **Hal hatır** → `How are you?` → `I'm fine, thanks. And you?`\n5. **Nereli** → `Where are you from?` → `I'm from Samsun, Turkey.`\n6. **Meslek** → `What's your job?` → `I'm a graphic designer.`\n7. **Yaş** (gerekirse) → `How old are you?` → `I'm thirty.`\n8. **Veda** → `Nice to meet you. Bye! See you.`\n\nBu 8 adımı sırayla söyleyebiliyorsan A1'in ilk can-do'sunu geçtin demektir: *'Kendini tanıtır, kişisel sorular sorar ve cevaplar.'*\n\nBir de **kurtarma kalıpları**: anlamadığında `Sorry?`, yavaşlatmak için `Slowly, please.`, bilmediğin kelime için `How do you say ... in English?`. Bunlar sınavda puan kaybettirmez, **puan kazandırır**; çünkü konuşmayı sürdürdüğünü gösterir."
+  },
+  {
+   "t": "dialogue",
+   "h": "Haftanın büyük diyaloğu: baştan sona bir tanışma",
+   "lines": [
+    {
+     "who": "Tom",
+     "en": "Hi! I'm Tom. What's your name?",
+     "tr": "Selam! Ben Tom. Adın ne?"
+    },
+    {
+     "who": "Uğur",
+     "en": "Hello, Tom. I'm Uğur. Nice to meet you.",
+     "tr": "Merhaba Tom. Ben Uğur. Memnun oldum."
+    },
+    {
+     "who": "Tom",
+     "en": "Nice to meet you too. How are you?",
+     "tr": "Ben de memnun oldum. Nasılsın?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm fine, thanks. And you?",
+     "tr": "İyiyim, teşekkürler. Sen?"
+    },
+    {
+     "who": "Tom",
+     "en": "I'm good. Where are you from, Uğur?",
+     "tr": "İyiyim. Nerelisin Uğur?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm from Samsun. It's a city in the north of Turkey. And you?",
+     "tr": "Samsunluyum. Türkiye'nin kuzeyinde bir şehir. Sen?"
+    },
+    {
+     "who": "Tom",
+     "en": "I'm from Boston, in the USA. What's your job?",
+     "tr": "Boston'lıyım, ABD. Mesleğin ne?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm a graphic designer. I'm at an agency. What about you?",
+     "tr": "Grafik tasarımcıyım. Bir ajanstayım. Ya sen?"
+    },
+    {
+     "who": "Tom",
+     "en": "I'm a teacher. Sorry, how old are you?",
+     "tr": "Öğretmenim. Pardon, kaç yaşındasın?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm thirty. And you?",
+     "tr": "Otuz. Sen?"
+    },
+    {
+     "who": "Tom",
+     "en": "I'm thirty-two. Well, it's nice to meet you, Uğur. See you!",
+     "tr": "Otuz iki. Eh, memnun oldum Uğur. Görüşürüz!"
+    },
+    {
+     "who": "Uğur",
+     "en": "See you, Tom. Bye!",
+     "tr": "Görüşürüz Tom. Hoşça kal!"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "ipucu",
+   "md": "**'And you?' / 'What about you?'** — konuşmayı sürdürmenin en ucuz yolu. Her cevabının sonuna bunlardan birini ekle; soru sorma yükünü karşı tarafa atarsın, konuşma akar ve etkileşim puanın yükselir. Sınavcı da bunu görmek ister."
+  },
+  {
+   "t": "text",
+   "h": "4/3/2: kendini üç kez anlat",
+   "md": "Bugünün konuşma bölümü biraz farklı. Aynı şeyi **üç kez** anlatacaksın, her seferinde daha kısa sürede:\n\n- **1. tur — 90 saniye:** Kendini tanıt: ad, şehir, meslek, yaş, ajans, nasılsın. Duraklamak, düşünmek serbest.\n- **2. tur — 60 saniye:** Aynı şeyi anlat. Artık ne diyeceğini biliyorsun; daha az dur.\n- **3. tur — 45 saniye:** Son kez, hızlı ve rahat.\n\nNeden işe yarıyor? İlk turda kelime ararsın; ikinci turda kelimeler hazırdır, cümle kurmaya odaklanırsın; üçüncü turda cümleler de hazırdır, sadece söylersin. Araştırma (Nation 1989) üçüncü turda konuşma hızının arttığını, duraklamanın azaldığını ve bazı hataların **kendiliğinden düzeldiğini** gösteriyor.\n\nİpucu: ilk turdan önce 4-5 kelimelik bir not al (Samsun, designer, 30, agency, busy), tam cümle yazma. Sonra notlara bakarak konuş."
+  },
+  {
+   "t": "pronounce",
+   "h": "Telaffuz: haftanın sesleri, karışık",
+   "items": [
+    {
+     "en": "Hi, how are you?",
+     "hint": "/h/: iki h de nefesli ve duyulur"
+    },
+    {
+     "en": "I'm fine.",
+     "hint": "/aɪ/: 'aym fayn' — ikisi de 'ay'"
+    },
+    {
+     "en": "It is big. He is tall.",
+     "hint": "/ɪ/ kısa 'ıt ız' — /iː/ uzun 'hii'"
+    },
+    {
+     "en": "Job. Teacher. German. Turkish.",
+     "hint": "c / ç / c / ş"
+    },
+    {
+     "en": "WHERE are you FROM?",
+     "hint": "vurgu: soru kelimesi ve son kelime güçlü, ortası zayıf"
+    },
+    {
+     "en": "Thirteen. Thirty.",
+     "hint": "thir-TİİN / THÖR-ti — vurgu yer değiştiriyor"
+    },
+    {
+     "en": "Thanks. Three.",
+     "hint": "/θ/: dil dişlerin arasında, hava sızar; 't' değil, 's' değil"
+    }
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Haftanın en sık 6 hatası",
+   "items": [
+    {
+     "wrong": "I designer.",
+     "right": "I'm a designer.",
+     "why": "Fiil (am) ve 'a' düşmez. Haftanın 1 numaralı kuralı."
+    },
+    {
+     "wrong": "She from Spain.",
+     "right": "She's from Spain.",
+     "why": "is düşmez."
+    },
+    {
+     "wrong": "My sister... he is 25.",
+     "right": "My sister... she is 25.",
+     "why": "Kadın → she."
+    },
+    {
+     "wrong": "They is my friends.",
+     "right": "They are my friends.",
+     "why": "Çoğul → are."
+    },
+    {
+     "wrong": "How old you are?",
+     "right": "How old are you?",
+     "why": "Soru kelimesinden sonra fiil, sonra özne."
+    },
+    {
+     "wrong": "I'm Samsun.",
+     "right": "I'm from Samsun.",
+     "why": "-lu eki = from."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "meet",
+   "en": "meet",
+   "tr": "tanışmak, buluşmak",
+   "pos": "verb",
+   "ipa": "miːt",
+   "ex_en": "Nice to meet you.",
+   "ex_tr": "Tanıştığımıza memnun oldum."
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "tr": "insanlar, kişi (çoğul)",
+   "pos": "noun",
+   "ipa": "ˈpiːpəl",
+   "ex_en": "We are five people.",
+   "ex_tr": "Beş kişiyiz."
+  },
+  {
+   "id": "and_you",
+   "en": "And you? / What about you?",
+   "tr": "Ya sen? / Peki sen?",
+   "pos": "phrase",
+   "ipa": "ænd juː",
+   "ex_en": "I'm fine. And you?",
+   "ex_tr": "İyiyim. Sen?"
+  },
+  {
+   "id": "slowly",
+   "en": "slowly",
+   "tr": "yavaşça",
+   "pos": "adverb",
+   "ipa": "ˈsloʊli",
+   "ex_en": "Slowly, please.",
+   "ex_tr": "Yavaş lütfen."
+  },
+  {
+   "id": "again",
+   "en": "again",
+   "tr": "tekrar, yine",
+   "pos": "adverb",
+   "ipa": "əˈɡen",
+   "ex_en": "Sorry? Again, please.",
+   "ex_tr": "Efendim? Tekrar lütfen."
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "tr": "anlamak",
+   "pos": "verb",
+   "ipa": "ˌʌndərˈstænd",
+   "ex_en": "Sorry, I don't understand.",
+   "ex_tr": "Pardon, anlamadım."
+  },
+  {
+   "id": "how_do_you_say",
+   "en": "How do you say ... in English?",
+   "tr": "... İngilizcede nasıl denir?",
+   "pos": "phrase",
+   "ipa": "haʊ də jə seɪ",
+   "ex_en": "How do you say 'çizim' in English?",
+   "ex_tr": "'Çizim' İngilizcede nasıl denir?"
+  },
+  {
+   "id": "welcome",
+   "en": "welcome",
+   "tr": "hoş geldin",
+   "pos": "interjection",
+   "ipa": "ˈwelkəm",
+   "ex_en": "Welcome to Samsun!",
+   "ex_tr": "Samsun'a hoş geldin!"
+  },
+  {
+   "id": "great",
+   "en": "great",
+   "tr": "harika",
+   "pos": "adjective",
+   "ipa": "ɡreɪt",
+   "ex_en": "That's great!",
+   "ex_tr": "Bu harika!"
+  },
+  {
+   "id": "today",
+   "en": "today",
+   "tr": "bugün",
+   "pos": "adverb",
+   "ipa": "təˈdeɪ",
+   "ex_en": "I'm busy today.",
+   "ex_tr": "Bugün meşgulüm."
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "tr": "yarın",
+   "pos": "adverb",
+   "ipa": "təˈmɑːroʊ",
+   "ex_en": "See you tomorrow!",
+   "ex_tr": "Yarın görüşürüz!"
+  },
+  {
+   "id": "good_night",
+   "en": "Good night.",
+   "tr": "İyi geceler.",
+   "pos": "phrase",
+   "ipa": "ɡʊd naɪt",
+   "ex_en": "Good night, see you tomorrow.",
+   "ex_tr": "İyi geceler, yarın görüşürüz."
+  }
+ ],
+ "listening": {
+  "h": "Dinleme: Uğur kendini tanıtıyor (senin model cevabın)",
+  "text_en": "Hi, I'm Uğur. I'm from Samsun. It's a big city in the north of Turkey. I'm thirty years old. I'm a graphic designer and a motion designer. I'm at a small agency. We are five people. Our clients are from Turkey and Germany. Today I'm busy, but I'm happy.",
+  "text_tr": "Selam, ben Uğur. Samsunluyum. Türkiye'nin kuzeyinde büyük bir şehir. Otuz yaşındayım. Grafik tasarımcı ve motion tasarımcıyım. Küçük bir ajanstayım. Beş kişiyiz. Müşterilerimiz Türkiye'den ve Almanya'dan. Bugün meşgulüm ama mutluyum.",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "Uğur kaç mesleğini söylüyor?",
+    "options": [
+     "bir",
+     "iki",
+     "üç"
+    ],
+    "answer": "iki",
+    "why_tr": "graphic designer ve motion designer."
+   },
+   {
+    "type": "choice",
+    "q": "Ajans kaç kişi?",
+    "options": [
+     "three",
+     "five",
+     "fifteen"
+    ],
+    "answer": "five",
+    "why_tr": "'We are five people.'"
+   },
+   {
+    "type": "choice",
+    "q": "Müşteriler nereli?",
+    "options": [
+     "Turkey and Germany",
+     "England and Spain",
+     "the USA"
+    ],
+    "answer": "Turkey and Germany",
+    "why_tr": "'Our clients are from Turkey and Germany.'"
+   }
+  ]
+ },
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "I ___ a designer.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "am",
+   "why_tr": "I → am."
+  },
+  {
+   "type": "choice",
+   "q": "They ___ my clients.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "why_tr": "they → are."
+  },
+  {
+   "type": "choice",
+   "q": "___ is your name?",
+   "options": [
+    "What",
+    "Who",
+    "How"
+   ],
+   "answer": "What",
+   "why_tr": "Ad → What."
+  },
+  {
+   "type": "choice",
+   "q": "Are you from Samsun? — Yes, ___.",
+   "options": [
+    "I am",
+    "I'm",
+    "you are"
+   ],
+   "answer": "I am",
+   "why_tr": "Olumlu kısa cevapta kısaltma yok."
+  },
+  {
+   "type": "choice",
+   "q": "Samsun is big. ___ is in the north.",
+   "options": [
+    "He",
+    "She",
+    "It"
+   ],
+   "answer": "It",
+   "why_tr": "Şehir → it."
+  },
+  {
+   "type": "fill",
+   "q": "Where ___ you from?",
+   "answer": "are",
+   "why_tr": "you → are."
+  },
+  {
+   "type": "fill",
+   "q": "Nice to ___ you.",
+   "answer": "meet",
+   "why_tr": "Kalıp."
+  },
+  {
+   "type": "fill",
+   "q": "I'm 30 years ___.",
+   "answer": "old",
+   "why_tr": "years old."
+  },
+  {
+   "type": "order",
+   "words": [
+    "from",
+    "you",
+    "Where",
+    "are",
+    "?"
+   ],
+   "answer": "Where are you from?",
+   "why_tr": "Soru kelimesi + are + you + from."
+  },
+  {
+   "type": "order",
+   "words": [
+    "designer",
+    "a",
+    "I'm",
+    "graphic"
+   ],
+   "answer": "I'm a graphic designer",
+   "why_tr": "I'm + a + sıfat + isim."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "Nice to meet you.",
+     "Memnun oldum."
+    ],
+    [
+     "How are you?",
+     "Nasılsın?"
+    ],
+    [
+     "Where are you from?",
+     "Nerelisin?"
+    ],
+    [
+     "How old are you?",
+     "Kaç yaşındasın?"
+    ],
+    [
+     "See you.",
+     "Görüşürüz."
+    ],
+    [
+     "Sorry?",
+     "Efendim?"
+    ]
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Ben Uğur'um. Samsunluyum. Grafik tasarımcıyım.",
+   "answer": "I'm Uğur. I'm from Samsun. I'm a graphic designer.",
+   "alt": [
+    "I am Uğur. I am from Samsun. I am a graphic designer.",
+    "I'm Uğur. I'm from Samsun. I am a graphic designer."
+   ],
+   "why_tr": "Üç cümle, üçü de I'm ile."
+  },
+  {
+   "type": "translate",
+   "q": "O (kadın) kaç yaşında? — 25.",
+   "answer": "How old is she? — She's 25.",
+   "alt": [
+    "How old is she? She is 25.",
+    "How old is she? She's twenty-five."
+   ],
+   "why_tr": "How old + is + she."
+  },
+  {
+   "type": "translate",
+   "q": "Onlar tasarımcı mı? Hayır, değiller.",
+   "answer": "Are they designers? No, they aren't.",
+   "alt": [
+    "Are they designers? No, they're not.",
+    "Are they designers? No, they are not."
+   ],
+   "why_tr": "Are they + çoğul isim."
+  },
+  {
+   "type": "listen",
+   "say": "Hi, I'm Tom. I'm from Boston. I'm a teacher. I'm thirty-two.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "Hi, I'm Tom. I'm from Boston. I'm a teacher. I'm thirty-two.",
+   "alt": [
+    "Hi I'm Tom. I'm from Boston. I'm a teacher. I'm 32.",
+    "Hi, I am Tom. I am from Boston. I am a teacher. I am thirty-two."
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "Hi, I'm Uğur. I'm from Samsun. I'm a designer. Nice to meet you.",
+   "q": "Dinle ve tekrar et; durmadan, tek nefeste."
+  },
+  {
+   "type": "speak",
+   "say": "Sorry? Slowly, please.",
+   "q": "Dinle ve tekrar et. Kurtarma kalıbı; yarın sınavda lazım olabilir."
+  },
+  {
+   "type": "correct",
+   "q": "I am designer from Samsun.",
+   "answer": "I am a designer from Samsun.",
+   "alt": [
+    "I'm a designer from Samsun."
+   ],
+   "why_tr": "Meslek önünde a."
+  },
+  {
+   "type": "correct",
+   "q": "How old you are?",
+   "answer": "How old are you?",
+   "alt": [
+    "How old are you"
+   ],
+   "why_tr": "Fiil özneden önce."
+  },
+  {
+   "type": "free",
+   "q": "Kendini 5 cümleyle tanıt (bu, yarınki sınavın 1. bölümünün provası).",
+   "min_words": 20,
+   "rubric_tr": "am/is/are doğru; meslek önünde a; from var; yaş be ile; büyük harf I."
+  }
+ ],
+ "speaking": {
+  "scenario_tr": "İki bölüm. (1) 4/3/2: Kendini tanıt; asistan süre tutacak: önce 90 saniye, sonra 60, sonra 45. Her turda aynı içerik: ad, şehir, meslek, yaş, ajans, bugün nasılsın. (2) Rol oyunu: Tom adında Amerikalı bir öğretmenle sıfırdan tanış; sorularına cevap ver ve sen de en az 3 soru sor. Anlamazsan 'Sorry?' de.",
+  "role_en": "Two parts. PART 1 (4/3/2): Say 'Round 1: tell me about yourself. You have 90 seconds. Go!' Let him talk; respond only with 'Great. Again, faster — 60 seconds.' then 'Last time — 45 seconds.' Do not correct during rounds; after round 3 give 2 short Turkish feedback lines. PART 2: You are Tom, an American teacher from Boston at a meetup. Do a full first-meeting conversation: greet, names, how are you, where from, job, age, goodbye. Expect him to ask you questions too; if he doesn't, say 'Ask me something!'. One short sentence plus one question per turn. Only be-verb grammar and unit-1 vocabulary.",
+  "opener_en": "Hi Uğur! Today we do two things. Round 1: tell me about yourself — name, city, job, age, agency. You have 90 seconds. Go!",
+  "targets": [
+   "I'm Uğur. I'm from Samsun.",
+   "I'm a graphic designer at a small agency.",
+   "I'm thirty.",
+   "We are five people.",
+   "What's your name? / Where are you from? / What's your job? / How old are you?",
+   "And you?",
+   "Sorry?"
+  ],
+  "hints_tr": [
+   "1. tur: dur, düşün, serbest",
+   "2. ve 3. tur: aynı cümleler, daha hızlı",
+   "Rol oyununda her cevabın sonuna 'And you?' ekle",
+   "Anlamazsan 'Sorry?' ya da 'Slowly, please.'"
+  ],
+  "min_turns": 8
+ },
+ "homework": {
+  "written": {
+   "prompt_tr": "to be tablosunu bakmadan yaz (I am ... they are, olumsuz ve soru halleriyle). Sonra 4 cümleyle yarınki sınav için kendini tanıt.",
+   "min_sentences": 8,
+   "model_en": "I am / I'm not / Am I? · You are / You aren't / Are you? · He is / He isn't / Is he? · She is / She isn't / Is she? · It is / It isn't / Is it? · We are / We aren't / Are we? · They are / They aren't / Are they? — Hi, I'm Uğur. I'm from Samsun. I'm a graphic designer. I'm thirty."
+  },
+  "spoken": {
+   "prompt_tr": "Yarınki sınav provası: aşağıdaki 6 cümleyi sesli söyle, sonra ilk 4'ünü bir kez daha, bakmadan:",
+   "sentences": [
+    "Hi, I'm Uğur. Nice to meet you.",
+    "I'm from Samsun. It's in the north of Turkey.",
+    "I'm a graphic designer at a small agency.",
+    "I'm thirty years old.",
+    "Where are you from? What's your job?",
+    "Sorry? Slowly, please."
+   ]
+  },
+  "habit_tr": "Yatmadan önce 45 saniyelik 'kendini tanıt' turunu bir kez daha yap; telefona kaydet ve dinle."
+ },
+ "summary": {
+  "rule_md": "**Ünite 1'in tamamı = to be.** `I am · you are · he/she/it is · we/you/they are`. Olumsuz `not`, soru fiil başa, soru kelimesi en başa.\n\n**Tanışma haritası:** Hi → I'm ... → Nice to meet you → How are you? → Where are you from? → What's your job? → How old are you? → Bye!\n\n**Kurtarma:** Sorry? · Slowly, please. · How do you say ... in English?",
+  "examples": [
+   {
+    "en": "Hi, I'm Uğur. I'm from Samsun. I'm a graphic designer. I'm thirty.",
+    "tr": "Selam, ben Uğur. Samsunluyum. Grafik tasarımcıyım. Otuz yaşındayım."
+   },
+   {
+    "en": "Where are you from? What's your job? And you?",
+    "tr": "Nerelisin? Mesleğin ne? Ya sen?"
+   },
+   {
+    "en": "Sorry? Slowly, please.",
+    "tr": "Efendim? Yavaş lütfen."
+   }
+  ]
+ },
+ "adapt_note_tr": "Ünite kapanışı: yeni gramer yok; konuşma bölümü 4/3/2 + rol oyunu (min 8 tur). Yarın cumartesi konuşma sınavı, pazar tekrar ve ünite sınavı."
+}

@@ -1,0 +1,327 @@
+{
+ "id": "a1-u1-exam",
+ "course": "A1",
+ "unit": 1,
+ "lesson": null,
+ "n": 8,
+ "type": "unit_exam",
+ "title_tr": "1. Ünite sınavı: Merhaba!",
+ "title_en": "Unit 1 exam: Hello!",
+ "date": "2026-11-08",
+ "minutes": 20,
+ "goals_tr": [
+  "25 soru, tek oturum, ~15 dakika. Geçme notu 70.",
+  "Sonunda yanlış yaptığın konular listelenir ve zayıf konu listesine eklenir.",
+  "Geçemezsen dünya yıkılmaz: pazartesi dersi ek tekrar içerir, sınavı çarşamba yeniden alırsın."
+ ],
+ "intro_md": "Haftanın her şeyi karışık: to be (tüm özneler), soru kelimeleri, nereli olma, milliyetler, sayılar, selamlaşma kalıpları. Sözlük yok, not yok; bu bir ölçüm. Bitince bir de kısa konuşma istemi var (puana dahil değil, ısınma).",
+ "exam": {
+  "pass": 70,
+  "speaking_prompt_tr": "Sınav bitti. Şimdi 60 saniye: kendini tanıt ve ajanstan bir kişiyi anlat (He/She is ...). Bu bölüm puanlanmaz; haftayı sesli kapatmak için.",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "I ___ from Samsun.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "am",
+    "why_tr": "I → am."
+   },
+   {
+    "type": "choice",
+    "q": "She ___ a designer.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is",
+    "why_tr": "she → is."
+   },
+   {
+    "type": "choice",
+    "q": "We ___ busy today.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "are",
+    "why_tr": "we → are."
+   },
+   {
+    "type": "choice",
+    "q": "My parents ___ in Samsun.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "are",
+    "why_tr": "parents → they → are."
+   },
+   {
+    "type": "choice",
+    "q": "Istanbul is big. ___ is in Turkey.",
+    "options": [
+     "He",
+     "She",
+     "It"
+    ],
+    "answer": "It",
+    "why_tr": "Şehir → it."
+   },
+   {
+    "type": "choice",
+    "q": "___ you from Germany? — No, I'm not.",
+    "options": [
+     "Am",
+     "Is",
+     "Are"
+    ],
+    "answer": "Are",
+    "why_tr": "you → are; soruda başta."
+   },
+   {
+    "type": "choice",
+    "q": "Is he your boss? — Yes, ___.",
+    "options": [
+     "he is",
+     "he's",
+     "is he"
+    ],
+    "answer": "he is",
+    "why_tr": "Kısa cevap: Yes, he is (kısaltma yok)."
+   },
+   {
+    "type": "choice",
+    "q": "___ is your name?",
+    "options": [
+     "Who",
+     "What",
+     "How"
+    ],
+    "answer": "What",
+    "why_tr": "Ad → What."
+   },
+   {
+    "type": "choice",
+    "q": "___ old is your brother?",
+    "options": [
+     "What",
+     "How",
+     "Where"
+    ],
+    "answer": "How",
+    "why_tr": "How old."
+   },
+   {
+    "type": "choice",
+    "q": "___ is that? — That's Emma.",
+    "options": [
+     "Who",
+     "What",
+     "Where"
+    ],
+    "answer": "Who",
+    "why_tr": "Kişi → Who."
+   },
+   {
+    "type": "choice",
+    "q": "I'm ___.",
+    "options": [
+     "a Turkish",
+     "Turkish",
+     "Turkey"
+    ],
+    "answer": "Turkish",
+    "why_tr": "Milliyet sıfat; a yok."
+   },
+   {
+    "type": "choice",
+    "q": "She's from Spain. She's ___.",
+    "options": [
+     "Spain",
+     "Spanish",
+     "Spainish"
+    ],
+    "answer": "Spanish",
+    "why_tr": "Spain → Spanish."
+   },
+   {
+    "type": "choice",
+    "q": "90 = ?",
+    "options": [
+     "nineteen",
+     "ninety",
+     "nine-ten"
+    ],
+    "answer": "ninety",
+    "why_tr": "ninety; nineteen 19."
+   },
+   {
+    "type": "fill",
+    "q": "Where ___ you from?",
+    "answer": "are",
+    "why_tr": "you → are."
+   },
+   {
+    "type": "fill",
+    "q": "Nice to ___ you.",
+    "answer": "meet",
+    "why_tr": "Kalıp."
+   },
+   {
+    "type": "fill",
+    "q": "How are you? — I'm ___, thanks.",
+    "answer": "fine",
+    "alt": [
+     "good",
+     "OK",
+     "ok",
+     "great"
+    ],
+    "why_tr": "I'm fine, thanks."
+   },
+   {
+    "type": "fill",
+    "q": "He ___ (be) not from England. He's from Ireland.",
+    "answer": "is",
+    "alt": [
+     "'s"
+    ],
+    "why_tr": "he + is + not."
+   },
+   {
+    "type": "fill",
+    "q": "I'm 30 years ___.",
+    "answer": "old",
+    "why_tr": "years old."
+   },
+   {
+    "type": "order",
+    "words": [
+     "from",
+     "are",
+     "Where",
+     "they",
+     "?"
+    ],
+    "answer": "Where are they from?",
+    "why_tr": "Soru kelimesi + are + they + from."
+   },
+   {
+    "type": "order",
+    "words": [
+     "designer",
+     "a",
+     "is",
+     "sister",
+     "My"
+    ],
+    "answer": "My sister is a designer",
+    "why_tr": "Özne + is + a + isim."
+   },
+   {
+    "type": "order",
+    "words": [
+     "old",
+     "How",
+     "you",
+     "are",
+     "?"
+    ],
+    "answer": "How old are you?",
+    "why_tr": "How old + are + you."
+   },
+   {
+    "type": "translate",
+    "q": "Onlar tasarımcı değil. Müşteri.",
+    "answer": "They aren't designers. They're clients.",
+    "alt": [
+     "They are not designers. They are clients.",
+     "They're not designers. They're clients."
+    ],
+    "why_tr": "they + aren't; çoğul isimler."
+   },
+   {
+    "type": "translate",
+    "q": "Patronum kaç yaşında? — 45.",
+    "answer": "How old is my boss? — He's 45.",
+    "alt": [
+     "How old is my boss? He is 45.",
+     "How old is my boss? He's forty-five."
+    ],
+    "why_tr": "How old + is + özne."
+   },
+   {
+    "type": "correct",
+    "q": "I am designer. I am Samsun.",
+    "answer": "I am a designer. I am from Samsun.",
+    "alt": [
+     "I'm a designer. I'm from Samsun."
+    ],
+    "why_tr": "Meslek önünde a; nereli için from."
+   },
+   {
+    "type": "correct",
+    "q": "How old you are? Your name is what?",
+    "answer": "How old are you? What is your name?",
+    "alt": [
+     "How old are you? What's your name?"
+    ],
+    "why_tr": "Soru kelimesi başta, sonra fiil, sonra özne."
+   },
+   {
+    "type": "listen",
+    "say": "Hi, I'm Lucía. I'm from Spain. I'm twenty-eight.",
+    "q": "Ne duydun? Yaz.",
+    "answer": "Hi, I'm Lucía. I'm from Spain. I'm twenty-eight.",
+    "alt": [
+     "Hi I'm Lucía. I'm from Spain. I'm 28.",
+     "Hi, I am Lucía. I am from Spain. I am twenty-eight.",
+     "Hi, I'm Lucia. I'm from Spain. I'm twenty-eight."
+    ]
+   },
+   {
+    "type": "match",
+    "pairs": [
+     [
+      "Germany",
+      "German"
+     ],
+     [
+      "thirteen",
+      "13"
+     ],
+     [
+      "thirty",
+      "30"
+     ],
+     [
+      "Where are you from?",
+      "Nerelisin?"
+     ],
+     [
+      "See you.",
+      "Görüşürüz."
+     ]
+    ]
+   },
+   {
+    "type": "free",
+    "q": "Kendini 4 cümleyle tanıt: ad, şehir, meslek, yaş.",
+    "min_words": 14,
+    "rubric_tr": "am/is/are doğru; a designer; from Samsun; I'm 30 (years old). Her doğru cümle 25 puan."
+   }
+  ]
+ },
+ "vocab": [],
+ "summary": {
+  "rule_md": "Geçme notu 70. Yanlışların konu başlıklarıyla listelenir ve pazartesi dersine ek tekrar olarak girer.",
+  "examples": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "spk-2026-11-07",
+ "course": "A1",
+ "unit": 1,
+ "lesson": null,
+ "n": 6,
+ "type": "speaking_test",
+ "title_tr": "1. Konuşma sınavı: Tanışma",
+ "title_en": "Speaking test 1: Meeting people",
+ "date": "2026-11-07",
+ "minutes": 20,
+ "goals_tr": [
+  "Bu haftanın kalıplarıyla 10-12 dakika İngilizce konuşmak.",
+  "Sınav boyunca düzeltme yok; sonunda 4 ölçütte puan ve Türkçe rapor.",
+  "Hedef puan ilk ay için 8-10 / 20. Daha düşükse de normal: ilk haftadasın."
+ ],
+ "intro_md": "**Nasıl işliyor?** Üç bölüm var, toplam 10-12 dakika. Asistan sınav boyunca hatalarını **düzeltmez**, sadece doğal tepki verir ('Sorry, can you say that again?' gibi). Sınav bitince 4 ölçütte 0-5 puan alırsın (toplam 20) ve her puanın yanında kanıt cümlesi görürsün. Yazarak cevap vermek serbest ama en az bir bölümü sesli dene.\n\nAnlamadığında `Sorry?` demek puan **kazandırır**. Sessiz kalmak puan kaybettirir. Yanlış da olsa bir şey söyle.",
+ "test": {
+  "parts": [
+   {
+    "n": 1,
+    "h": "Isınma: kişisel sorular",
+    "minutes": 3,
+    "role_en": "You are Anna, a friendly examiner. Ask the warm-up questions one at a time, in this order. React naturally and briefly ('Nice.', 'OK.', 'Great.'), never correct, never teach. If he is silent for a while, repeat the question slowly. After question 4, ask the long-answer question and let him speak for up to 2 minutes without interrupting; then say 'Thank you. Now part two.'",
+    "opener_en": "Hello! I'm Anna. Nice to meet you. Let's start. What's your name?",
+    "questions_en": [
+     "What's your name?",
+     "Where are you from?",
+     "What's your job?",
+     "How old are you?",
+     "Long answer: Tell me about your agency. Who are the people? Where are they from? Are you busy?"
+    ]
+   },
+   {
+    "n": 2,
+    "h": "Rol oyunu: bir etkinlikte tanışma",
+    "minutes": 4,
+    "scenario_tr": "İstanbul'da bir tasarım etkinliğindesin. Yanına Daniel adında Alman bir tasarımcı geliyor. Tanış: selamlaş, adınızı söyleyin, nereli olduğunuzu ve mesleğinizi konuşun, yaş sorun, sonunda vedalaşın. En az 3 soru SEN sormalısın. Bir yerde anlamazsan 'Sorry?' de.",
+    "role_en": "You are Daniel, a German designer from Berlin, 29 years old, at a design meetup in Istanbul. Have a natural first-meeting conversation with Uğur: greet, names, how are you, where from, jobs, ages, goodbye. Answer his questions briefly and ask yours; if he stops asking, pause and say 'And you?' to prompt him. Once, say something slightly fast and see if he says 'Sorry?'; if he does, repeat slowly. Never correct. One or two short sentences per turn. Only be-verb grammar, unit-1 vocabulary.",
+    "opener_en": "Hi there! Busy event, right? I'm Daniel. What's your name?"
+   },
+   {
+    "n": 3,
+    "h": "Sahne anlatma",
+    "minutes": 3,
+    "prompt_tr": "Şu sahneyi hayal et ve İngilizce anlat (resim yerine metin): **Küçük bir ajans ofisi. Masada üç kişi var: Zeynep (tasarımcı, Samsun'dan, 28), Mark (müşteri, Amerikalı, 40) ve sen. Masada kahve ve bir laptop var. Herkes meşgul ama mutlu.** Kim var, nereli, kaç yaşında, nasıl? En az 6 cümle. Sonra asistan aynı şeyi 45 saniyede bir kez daha anlatmanı isteyecek (4/3/2 kısaltılmış).",
+    "prompt_en": "Describe the scene: a small agency office. Three people at a desk: Zeynep (designer, from Samsun, 28), Mark (client, American, 40) and you. Coffee and a laptop on the desk. Everyone is busy but happy. Who are they? Where are they from? How old are they? How are they? At least 6 sentences.",
+    "role_en": "You are Anna the examiner. Read the scene prompt in English once, slowly. Let Uğur describe it without interrupting; if he stops early, ask ONE prompt question ('Who is Mark?', 'How old is Zeynep?'). When he finishes, say: 'Great. Now tell me the same scene again, faster — 45 seconds. Go!' After that, say 'Thank you, Uğur. The test is over.' Never correct during the test.",
+    "opener_en": "Last part. I'll describe a scene; you tell me about it. Ready? A small agency office..."
+   }
+  ],
+  "rubric": {
+   "scale_tr": "Her ölçüt 0-5. Tanımlar 1, 3 ve 5 için; 2 ve 4 aradaki durumlar. Toplam 20. İlk ay hedefi 8-10, 3. ay 12-14, 6. ay 15+. A2 eşiği: her ölçütte en az 3.",
+   "fluency": "AKICILIK — 1: tek kelimeler, uzun sessizlikler, çoğu soruya cevap yok. 3: kısa cümleler, belirgin duraklama ama konuşma ilerliyor. 5: 2-3 cümle art arda, duraklama var ama akış kopmuyor.",
+   "accuracy": "DOĞRULUK (gramer + kelime) — 1: yapı yok, Türkçe sırayla kelimeler. 3: basit yapılar çoğunlukla doğru; be / a / he-she hataları var ama anlam açık. 5: öğrenilen yapılar (am/is/are, soru sırası, from) tutarlı doğru; ünite kelimeleri yeterli.",
+   "pronunciation": "TELAFFUZ — 1: çoğu kelime anlaşılmıyor. 3: genelde anlaşılır; th / w / æ / kısa-uzun i gibi seslerde anadil etkisi, bazen tekrar gerekir. 5: anlaşılır, kelime ve cümle vurgusu çoğunlukla doğru.",
+   "interaction": "ETKİLEŞİM — 1: soruları yok sayma, sadece bekleme. 3: sorulara uygun tepki, bazen yönlendirme gerekir. 5: kendisi soru soruyor (And you?), anlamadığında 'Sorry?' diyor, konuşmayı sürdürüyor.",
+   "max": 20,
+   "report_tr": "Her ölçüt için 1 cümle Türkçe + kanıt cümlesi (ör. '\"She don't\" dedin → doğruluk 3') + 'bu hafta en iyi 2 şey' + 'gelecek hafta 1 odak'. Telaffuz puanında STT metnine değil, hafta içi shadowing benzerlik ortalamasına ve bağlama güven."
+  }
+ },
+ "vocab": [],
+ "summary": {
+  "rule_md": "Sınavda düzeltme yok, sonunda rapor var. **Sessiz kalma; yanlış da olsa söyle.** `Sorry?` ve `And you?` puan kazandırır.",
+  "examples": [
+   {
+    "en": "Sorry? Can you say that again, please?",
+    "tr": "Efendim? Tekrar söyler misiniz?"
+   },
+   {
+    "en": "I'm fine, thanks. And you?",
+    "tr": "İyiyim. Ya siz?"
+   }
+  ]
+ }
+}

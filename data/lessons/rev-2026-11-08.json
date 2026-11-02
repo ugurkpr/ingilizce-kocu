@@ -1,0 +1,395 @@
+{
+ "id": "rev-2026-11-08",
+ "course": "A1",
+ "unit": 1,
+ "lesson": null,
+ "n": 7,
+ "type": "review",
+ "title_tr": "Pazar tekrarı: 1. hafta",
+ "title_en": "Sunday review: week 1",
+ "date": "2026-11-08",
+ "minutes": 25,
+ "goals_tr": [
+  "Haftanın tüm kelimelerini (bekleyenlerin hepsi) bir kez daha görmek.",
+  "20 karışık soruyla konuları birbirine bağlamak.",
+  "Ünite sınavına girmek ve haftalık karneyi okumak."
+ ],
+ "vocab_review": true,
+ "sections": [
+  {
+   "t": "text",
+   "h": "Hafta tek sayfada",
+   "md": "Bu hafta tek bir fiil öğrendin ama o fiil İngilizcenin yarısını taşıyor: **to be**.\n\n- `I am` · `you are` · `he / she / it is` · `we / you / they are`\n- Olumsuz: `not` ekle (`I'm not`, `she isn't`, `they aren't`)\n- Soru: fiili başa al (`Are you...?`, `Is she...?`)\n- Bilgi sorusu: soru kelimesini en başa koy (`What's your name?`, `Where are you from?`, `How old are you?`, `Who is he?`)\n\nTürkçeyle üç fark, üç tuzak:\n\n1. Türkçe **ek** kullanır (tasarımcı**yım**), İngilizce **ayrı kelime** (I **am**). Fiil asla düşmez.\n2. Türkçe 'o' tektir, İngilizce üçe ayrılır: **he / she / it**.\n3. Türkçede soru kelimesi ortada durabilir, İngilizcede **hep en başta**."
+  },
+  {
+   "t": "table",
+   "h": "Haftanın kalıpları: ezbere söyle",
+   "cols": [
+    "Durum",
+    "Söyle",
+    "Cevap"
+   ],
+   "rows": [
+    [
+     "Selam",
+     "Hi! / Hello! / Good morning.",
+     "Hi!"
+    ],
+    [
+     "Ad",
+     "What's your name?",
+     "I'm Uğur. / My name is Uğur."
+    ],
+    [
+     "İlk tanışma",
+     "Nice to meet you.",
+     "Nice to meet you too."
+    ],
+    [
+     "Hal hatır",
+     "How are you?",
+     "I'm fine, thanks. And you?"
+    ],
+    [
+     "Nereli",
+     "Where are you from?",
+     "I'm from Samsun, Turkey."
+    ],
+    [
+     "Meslek",
+     "What's your job?",
+     "I'm a graphic designer."
+    ],
+    [
+     "Yaş",
+     "How old are you?",
+     "I'm thirty."
+    ],
+    [
+     "Telefon",
+     "What's your phone number?",
+     "It's oh-five-three-two..."
+    ],
+    [
+     "Anlamadım",
+     "Sorry? / Slowly, please.",
+     "(tekrar eder)"
+    ],
+    [
+     "Veda",
+     "Bye! See you.",
+     "See you!"
+    ]
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Haftanın hataları (bir daha bak, sınavda çıkacak)",
+   "items": [
+    {
+     "wrong": "I designer.",
+     "right": "I'm a designer.",
+     "why": "am + a."
+    },
+    {
+     "wrong": "She from London.",
+     "right": "She's from London.",
+     "why": "is düşmez."
+    },
+    {
+     "wrong": "My sister... he",
+     "right": "My sister... she",
+     "why": "Kadın → she."
+    },
+    {
+     "wrong": "They is",
+     "right": "They are",
+     "why": "Çoğul → are."
+    },
+    {
+     "wrong": "How old you are?",
+     "right": "How old are you?",
+     "why": "Fiil özneden önce."
+    },
+    {
+     "wrong": "I'm a Turkish.",
+     "right": "I'm Turkish.",
+     "why": "Milliyet sıfattır."
+    },
+    {
+     "wrong": "I have 30 years.",
+     "right": "I'm 30.",
+     "why": "Yaş be ile."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "ipucu",
+   "md": "**Sırada ne var?** Önce aşağıdaki 20 soruyu çöz. Sonra 'Kelimeler' sekmesinde bekleyen tekrarların hepsini bitir (bugün tavan yok). En son **1. Ünite sınavına** gir (25 soru, geçme 70). Sınav bitince haftalık karnen hazırlanır: doğruluk, kelime kutuları, dünkü konuşma sınavı puanın, en zayıf 3 konu ve gelecek hafta planı. Karnenin altındaki 'gelecek hafta 1 odak' kutusuna kendi cümlenle Türkçe bir şey yaz.\n\nYarın 2. ünite başlıyor: **a / an**, çoğullar, this / that ve çantandaki eşyalar."
+  }
+ ],
+ "vocab": [],
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "I ___ a motion designer.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "am",
+   "why_tr": "I → am."
+  },
+  {
+   "type": "choice",
+   "q": "You ___ my friend.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "why_tr": "you → are."
+  },
+  {
+   "type": "choice",
+   "q": "The client ___ happy.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "is",
+   "why_tr": "Tek kişi → is."
+  },
+  {
+   "type": "choice",
+   "q": "Zeynep and Burak ___ at the office.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "why_tr": "İki kişi → they → are."
+  },
+  {
+   "type": "choice",
+   "q": "My mother is a teacher. ___ is from Trabzon.",
+   "options": [
+    "He",
+    "She",
+    "It"
+   ],
+   "answer": "She",
+   "why_tr": "mother → she."
+  },
+  {
+   "type": "choice",
+   "q": "___ are you from? — Samsun.",
+   "options": [
+    "What",
+    "Where",
+    "Who"
+   ],
+   "answer": "Where",
+   "why_tr": "Yer → Where."
+  },
+  {
+   "type": "choice",
+   "q": "___ is she? — She's my sister.",
+   "options": [
+    "What",
+    "Where",
+    "Who"
+   ],
+   "answer": "Who",
+   "why_tr": "Kişi → Who."
+  },
+  {
+   "type": "choice",
+   "q": "Are they German? — No, ___.",
+   "options": [
+    "they aren't",
+    "they isn't",
+    "aren't they"
+   ],
+   "answer": "they aren't",
+   "why_tr": "Olumsuz kısa cevap: No, they aren't."
+  },
+  {
+   "type": "choice",
+   "q": "17 = ?",
+   "options": [
+    "seventy",
+    "seventeen",
+    "seven-ten"
+   ],
+   "answer": "seventeen",
+   "why_tr": "seventeen (vurgu sonda)."
+  },
+  {
+   "type": "fill",
+   "q": "What's ___ name? — I'm Uğur.",
+   "answer": "your",
+   "why_tr": "Senin adın → your name."
+  },
+  {
+   "type": "fill",
+   "q": "He ___ (be) 32 years old.",
+   "answer": "is",
+   "alt": [
+    "'s"
+   ],
+   "why_tr": "he → is; yaş be ile."
+  },
+  {
+   "type": "fill",
+   "q": "Good ___! (sabah)",
+   "answer": "morning",
+   "why_tr": "Good morning."
+  },
+  {
+   "type": "fill",
+   "q": "We ___ (be) not tired.",
+   "answer": "are",
+   "alt": [
+    "'re"
+   ],
+   "why_tr": "we + are + not."
+  },
+  {
+   "type": "order",
+   "words": [
+    "is",
+    "Samsun",
+    "the",
+    "north",
+    "in"
+   ],
+   "answer": "Samsun is in the north",
+   "why_tr": "Özne + is + yer."
+  },
+  {
+   "type": "order",
+   "words": [
+    "you",
+    "are",
+    "How",
+    "?"
+   ],
+   "answer": "How are you?",
+   "why_tr": "How + are + you."
+  },
+  {
+   "type": "order",
+   "words": [
+    "Spanish",
+    "aren't",
+    "They"
+   ],
+   "answer": "They aren't Spanish",
+   "why_tr": "They + aren't + milliyet."
+  },
+  {
+   "type": "translate",
+   "q": "Nerelisin? — Türkiye'denim, Samsunluyum.",
+   "answer": "Where are you from? — I'm from Turkey, from Samsun.",
+   "alt": [
+    "Where are you from? I'm from Turkey. I'm from Samsun.",
+    "Where are you from? I am from Turkey, from Samsun."
+   ],
+   "why_tr": "from iki kez de olabilir."
+  },
+  {
+   "type": "translate",
+   "q": "O (erkek) benim patronum. 45 yaşında.",
+   "answer": "He's my boss. He's 45.",
+   "alt": [
+    "He is my boss. He is 45.",
+    "He's my boss. He's forty-five.",
+    "He is my boss. He is forty-five years old."
+   ],
+   "why_tr": "he + is; yaş be ile."
+  },
+  {
+   "type": "correct",
+   "q": "We is from Samsun. We are designer.",
+   "answer": "We are from Samsun. We are designers.",
+   "alt": [
+    "We're from Samsun. We're designers."
+   ],
+   "why_tr": "we → are; çoğul meslek."
+  },
+  {
+   "type": "correct",
+   "q": "Where is from she?",
+   "answer": "Where is she from?",
+   "alt": [
+    "Where's she from?"
+   ],
+   "why_tr": "from sonda."
+  },
+  {
+   "type": "listen",
+   "say": "Good morning! I'm Mark. I'm from the USA. I'm forty.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "Good morning! I'm Mark. I'm from the USA. I'm forty.",
+   "alt": [
+    "Good morning. I'm Mark. I'm from the USA. I'm 40.",
+    "Good morning! I am Mark. I am from the USA. I am forty."
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "Hi, I'm Uğur. I'm from Samsun. I'm a designer. I'm thirty. Nice to meet you.",
+   "q": "Dinle ve tekrar et: haftanın özeti tek nefeste."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "busy",
+     "meşgul"
+    ],
+    [
+     "client",
+     "müşteri"
+    ],
+    [
+     "deadline",
+     "teslim tarihi"
+    ],
+    [
+     "parents",
+     "anne-baba"
+    ],
+    [
+     "country",
+     "ülke"
+    ],
+    [
+     "again",
+     "tekrar"
+    ]
+   ]
+  },
+  {
+   "type": "free",
+   "q": "Bu hafta en çok hangi hatayı yaptın? İngilizce yanlış cümleyi ve doğrusunu yaz, Türkçe 1 cümle neden ekle.",
+   "min_words": 8,
+   "rubric_tr": "Doğru cümle gerçekten doğru mu; neden açıklaması ders kurallarıyla uyumlu mu."
+  }
+ ],
+ "summary": {
+  "rule_md": "**Hafta 1 bitti.** to be + soru kelimeleri + tanışma kalıpları. Sıradaki adım: ünite sınavı → karne → pazartesi 2. ünite (a/an, çoğul, this/that).",
+  "examples": [
+   {
+    "en": "I'm Uğur. I'm from Samsun. I'm a designer. I'm 30.",
+    "tr": "Ben Uğur. Samsunluyum. Tasarımcıyım. 30 yaşındayım."
+   }
+  ]
+ }
+}

@@ -1,0 +1,802 @@
+{
+ "id": "a1-u1-l2",
+ "course": "A1",
+ "unit": 1,
+ "lesson": 2,
+ "n": 2,
+ "type": "lesson",
+ "title_tr": "Nerelisin?",
+ "title_en": "Where are you from?",
+ "date": "2026-11-03",
+ "minutes": 35,
+ "goals_tr": [
+  "he / she / it ile 'is' kullanabileceksin: She is from London.",
+  "Nereli olduğunu söyleyip karşındakine sorabileceksin: Where are you from?",
+  "10 ülke adını söyleyebileceksin.",
+  "ship / sheep farkını (kısa i – uzun ii) duyup söyleyebileceksin."
+ ],
+ "prev_check": {
+  "homework_feedback_md": null,
+  "score": null,
+  "quiz": [
+   {
+    "type": "choice",
+    "q": "I ___ a designer.",
+    "options": [
+     "am",
+     "are",
+     "is"
+    ],
+    "answer": "am",
+    "why_tr": "Dünkü ders: I → am."
+   },
+   {
+    "type": "choice",
+    "q": "___ you from Samsun?",
+    "options": [
+     "Am",
+     "Are",
+     "Is"
+    ],
+    "answer": "Are",
+    "why_tr": "you → are; soruda başa gelir."
+   },
+   {
+    "type": "fill",
+    "q": "Nice to ___ you.",
+    "answer": "meet",
+    "why_tr": "Kalıp: Nice to meet you."
+   },
+   {
+    "type": "translate",
+    "q": "Yorgun değilim.",
+    "answer": "I'm not tired.",
+    "alt": [
+     "I am not tired."
+    ],
+    "why_tr": "am + not."
+   },
+   {
+    "type": "choice",
+    "q": "Are you OK? — Yes, ___.",
+    "options": [
+     "I'm",
+     "I am",
+     "you are"
+    ],
+    "answer": "I am",
+    "why_tr": "Olumlu kısa cevapta kısaltma yok."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "t": "text",
+   "h": "Dünden bugüne: üçüncü kişi geliyor",
+   "md": "Dün **ben** ve **sen** ile çalıştık: `I am`, `you are`. Bugün sıra **o**'da. Türkçede 'o' tek kelimedir; kadın, erkek, kedi, telefon, hepsi 'o'. İngilizce üçe ayırır:\n\n- `he` → erkek (o)\n- `she` → kadın (o)\n- `it` → insan dışı her şey: nesne, hayvan, şehir, hava (o)\n\nÜçünün de fiili aynı: **is**.\n\n`He is a designer.` · `She is from London.` · `It is a nice city.`\n\nKonuşmada kısaltma: `he's`, `she's`, `it's`. Olumsuz: `he isn't` / `he's not`. Soru: `Is she...?`\n\nTürk öğrencinin iki tuzağı var. Birincisi, Türkçede cinsiyet olmadığı için konuşurken **he/she karışır**; 'kız kardeşim' deyip `he` demek çok sık. Bunu bilmek bile hatayı yarıya indirir. İkincisi, `it`i unutup `he` demek: 'Samsun güzel, o büyük' → `It is big.`"
+  },
+  {
+   "t": "table",
+   "h": "to be — tüm tekil özneler",
+   "cols": [
+    "Özne",
+    "Olumlu",
+    "Kısa",
+    "Olumsuz",
+    "Soru"
+   ],
+   "rows": [
+    [
+     "I",
+     "I am",
+     "I'm",
+     "I'm not",
+     "Am I?"
+    ],
+    [
+     "you",
+     "you are",
+     "you're",
+     "you aren't",
+     "Are you?"
+    ],
+    [
+     "he",
+     "he is",
+     "he's",
+     "he isn't",
+     "Is he?"
+    ],
+    [
+     "she",
+     "she is",
+     "she's",
+     "she isn't",
+     "Is she?"
+    ],
+    [
+     "it",
+     "it is",
+     "it's",
+     "it isn't",
+     "Is it?"
+    ]
+   ]
+  },
+  {
+   "t": "examples",
+   "h": "Örnekler",
+   "items": [
+    {
+     "en": "She is a designer.",
+     "tr": "O (kadın) tasarımcı."
+    },
+    {
+     "en": "He's from Istanbul.",
+     "tr": "O (erkek) İstanbullu."
+    },
+    {
+     "en": "It's a big city.",
+     "tr": "(O) büyük bir şehir."
+    },
+    {
+     "en": "My boss is from Ankara.",
+     "tr": "Patronum Ankaralı.",
+     "note": "'My boss' = he/she → is"
+    },
+    {
+     "en": "Samsun is in Turkey.",
+     "tr": "Samsun Türkiye'de.",
+     "note": "Samsun = it → is"
+    },
+    {
+     "en": "She isn't from England. She's from Ireland.",
+     "tr": "O İngiltereli değil. İrlandalı."
+    },
+    {
+     "en": "Is he your friend? Yes, he is.",
+     "tr": "O senin arkadaşın mı? Evet."
+    },
+    {
+     "en": "Is it cold today? No, it isn't.",
+     "tr": "Bugün soğuk mu? Hayır, değil."
+    },
+    {
+     "en": "Where is she from? She's from Germany.",
+     "tr": "O nereli? Almanyalı."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "dikkat",
+   "md": "**Bir isim de he/she/it'tir.** `My boss`, `Emma`, `the client`, `Samsun` — hepsi tek bir kişi veya şey olduğu için fiili **is** olur: `Emma is from London.` · `The client is happy.` Yani kural 'kelime he/she/it ise' değil, **'tek bir üçüncü kişi/şeyse'** is kullan."
+  },
+  {
+   "t": "text",
+   "h": "Where are you from? — nereli olduğunu söylemek",
+   "md": "Bugünün ana kalıbı:\n\n`Where are you from?` → *Nerelisin?*\n\nCevap: `I'm from Turkey.` / `I'm from Samsun.`\n\nDikkat: Türkçe 'Samsun**lu**yum' tek kelimedir; İngilizce **from** (-den/-dan) kullanır: 'Samsun'danım' gibi düşün. `from` kelimesi düşerse cümle bozulur: ✗ `I'm Samsun.` (bu 'Ben Samsun'um' demek!)\n\nÜçüncü kişi için: `Where is she from?` → `She's from Spain.`\n\nÜlke adları İngilizcede **büyük harfle** başlar: Turkey, Germany, England. Türkiye için İngilizcede iki yazım görürsün: `Turkey` (yaygın) ve `Türkiye` (resmî, 2022'den beri). Konuşmada ikisi de anlaşılır; biz `Turkey` kullanacağız çünkü telaffuzu kolay: 'TÖR-ki'."
+  },
+  {
+   "t": "table",
+   "h": "Ülkeler",
+   "cols": [
+    "Ülke",
+    "İngilizce",
+    "Okunuşu (yaklaşık)"
+   ],
+   "rows": [
+    [
+     "Türkiye",
+     "Turkey",
+     "TÖR-ki"
+    ],
+    [
+     "İngiltere",
+     "England",
+     "İNG-lınd"
+    ],
+    [
+     "Amerika",
+     "the USA / America",
+     "dı yu-es-EY"
+    ],
+    [
+     "Almanya",
+     "Germany",
+     "CÖR-mı-ni"
+    ],
+    [
+     "İspanya",
+     "Spain",
+     "SPEYN"
+    ],
+    [
+     "İtalya",
+     "Italy",
+     "İ-tı-li"
+    ],
+    [
+     "Fransa",
+     "France",
+     "FRENS"
+    ],
+    [
+     "Japonya",
+     "Japan",
+     "cı-PEN"
+    ],
+    [
+     "Rusya",
+     "Russia",
+     "RA-şı"
+    ],
+    [
+     "Brezilya",
+     "Brazil",
+     "brı-ZİL"
+    ],
+    [
+     "İrlanda",
+     "Ireland",
+     "AYR-lınd"
+    ]
+   ]
+  },
+  {
+   "t": "dialogue",
+   "h": "Diyalog: Kahve molasında",
+   "lines": [
+    {
+     "who": "Emma",
+     "en": "Hi again, Uğur! Where are you from?",
+     "tr": "Yine selam Uğur! Nerelisin?"
+    },
+    {
+     "who": "Uğur",
+     "en": "I'm from Turkey. I'm from Samsun.",
+     "tr": "Türkiye'denim. Samsunluyum."
+    },
+    {
+     "who": "Emma",
+     "en": "Samsun? Where is it?",
+     "tr": "Samsun mu? O nerede?"
+    },
+    {
+     "who": "Uğur",
+     "en": "It's in the north. It's a big city.",
+     "tr": "Kuzeyde. Büyük bir şehir."
+    },
+    {
+     "who": "Emma",
+     "en": "Nice. I'm from London.",
+     "tr": "Güzel. Ben Londralıyım."
+    },
+    {
+     "who": "Uğur",
+     "en": "And your friend? Is she from London too?",
+     "tr": "Peki arkadaşın? O da mı Londralı?"
+    },
+    {
+     "who": "Emma",
+     "en": "No, she isn't. She's from Spain. Her name is Lucía.",
+     "tr": "Hayır. İspanyalı. Adı Lucía."
+    },
+    {
+     "who": "Uğur",
+     "en": "Is she a designer?",
+     "tr": "O tasarımcı mı?"
+    },
+    {
+     "who": "Emma",
+     "en": "Yes, she is. She's a motion designer.",
+     "tr": "Evet. Motion tasarımcı."
+    },
+    {
+     "who": "Uğur",
+     "en": "Oh, I'm a motion designer too!",
+     "tr": "Aa, ben de motion tasarımcıyım!"
+    },
+    {
+     "who": "Emma",
+     "en": "Really? That's great.",
+     "tr": "Gerçekten mi? Harika."
+    }
+   ]
+  },
+  {
+   "t": "pronounce",
+   "h": "Telaffuz: kısa /ɪ/ – uzun /iː/ (ship / sheep)",
+   "items": [
+    {
+     "en": "it",
+     "hint": "kısa ve gevşek 'ıt' ile 'it' arası; Türkçe 'i'den daha kapalı. 'iit' deme."
+    },
+    {
+     "en": "is",
+     "hint": "'ız' — sondaki ses z; 'is' değil"
+    },
+    {
+     "en": "she",
+     "hint": "'şii' — uzun; dudakları yana çek, gülümser gibi"
+    },
+    {
+     "en": "he",
+     "hint": "'hii' — uzun, h'yi düşürme"
+    },
+    {
+     "en": "ship / sheep",
+     "hint": "gemi: kısa 'şıp' · koyun: uzun 'şiip'. Türkçede bu fark yok, bu yüzden ikisini ayrı ayrı 5 kez söyle."
+    },
+    {
+     "en": "live / leave",
+     "hint": "'lıv' (yaşamak) / 'liiv' (ayrılmak) — kısa-uzun farkı anlamı değiştirir"
+    },
+    {
+     "en": "Italy",
+     "hint": "'İ-tı-li' — vurgu başta; 'i-TAL-ya' değil"
+    }
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Sık hatalar",
+   "items": [
+    {
+     "wrong": "She from London.",
+     "right": "She is from London.",
+     "why": "'is' düşmez. Dünkü kuralın aynısı: olmak eki İngilizcede ayrı kelimedir."
+    },
+    {
+     "wrong": "My sister is a designer. He is from Samsun.",
+     "right": "My sister is a designer. She is from Samsun.",
+     "why": "Kız kardeş → she. Türkçe 'o' cinsiyetsiz olduğu için bu hata çok sık; konuşmadan önce bir saniye düşün: kadın mı erkek mi?"
+    },
+    {
+     "wrong": "I'm Samsun.",
+     "right": "I'm from Samsun.",
+     "why": "'from' olmadan cümle 'Ben Samsun'um' demek olur. Türkçe -lu eki = İngilizce from."
+    },
+    {
+     "wrong": "Samsun is big. He is in the north.",
+     "right": "Samsun is big. It is in the north.",
+     "why": "Şehir, nesne, hayvan → it."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "where",
+   "en": "where",
+   "tr": "nerede, nereye, nereli",
+   "pos": "adverb",
+   "ipa": "wer",
+   "ex_en": "Where are you from?",
+   "ex_tr": "Nerelisin?"
+  },
+  {
+   "id": "from",
+   "en": "from",
+   "tr": "-den, -dan; -li (nereli)",
+   "pos": "preposition",
+   "ipa": "frʌm",
+   "ex_en": "I'm from Samsun.",
+   "ex_tr": "Samsunluyum."
+  },
+  {
+   "id": "country",
+   "en": "country",
+   "tr": "ülke",
+   "pos": "noun",
+   "ipa": "ˈkʌntri",
+   "ex_en": "Turkey is a big country.",
+   "ex_tr": "Türkiye büyük bir ülke."
+  },
+  {
+   "id": "city",
+   "en": "city",
+   "tr": "şehir",
+   "pos": "noun",
+   "ipa": "ˈsɪti",
+   "ex_en": "Samsun is a city in the north.",
+   "ex_tr": "Samsun kuzeyde bir şehir."
+  },
+  {
+   "id": "turkey",
+   "en": "Turkey",
+   "tr": "Türkiye",
+   "pos": "noun",
+   "ipa": "ˈtɜːrki",
+   "ex_en": "I'm from Turkey.",
+   "ex_tr": "Türkiye'denim."
+  },
+  {
+   "id": "england",
+   "en": "England",
+   "tr": "İngiltere",
+   "pos": "noun",
+   "ipa": "ˈɪŋɡlənd",
+   "ex_en": "Emma is from England.",
+   "ex_tr": "Emma İngiltereli."
+  },
+  {
+   "id": "the_usa",
+   "en": "the USA",
+   "tr": "ABD, Amerika",
+   "pos": "noun",
+   "ipa": "ðə juː es ˈeɪ",
+   "ex_en": "He's from the USA.",
+   "ex_tr": "O Amerikalı."
+  },
+  {
+   "id": "germany",
+   "en": "Germany",
+   "tr": "Almanya",
+   "pos": "noun",
+   "ipa": "ˈdʒɜːrməni",
+   "ex_en": "My uncle is in Germany.",
+   "ex_tr": "Amcam Almanya'da."
+  },
+  {
+   "id": "spain",
+   "en": "Spain",
+   "tr": "İspanya",
+   "pos": "noun",
+   "ipa": "speɪn",
+   "ex_en": "Lucía is from Spain.",
+   "ex_tr": "Lucía İspanyalı."
+  },
+  {
+   "id": "big",
+   "en": "big",
+   "tr": "büyük",
+   "pos": "adjective",
+   "ipa": "bɪɡ",
+   "ex_en": "Istanbul is a big city.",
+   "ex_tr": "İstanbul büyük bir şehir."
+  },
+  {
+   "id": "small",
+   "en": "small",
+   "tr": "küçük",
+   "pos": "adjective",
+   "ipa": "smɔːl",
+   "ex_en": "Our agency is small.",
+   "ex_tr": "Ajansımız küçük."
+  },
+  {
+   "id": "nice",
+   "en": "nice",
+   "tr": "güzel, hoş",
+   "pos": "adjective",
+   "ipa": "naɪs",
+   "ex_en": "It's a nice city.",
+   "ex_tr": "Güzel bir şehir."
+  },
+  {
+   "id": "boss",
+   "en": "boss",
+   "tr": "patron, müdür",
+   "pos": "noun",
+   "ipa": "bɔːs",
+   "ex_en": "My boss is from Ankara.",
+   "ex_tr": "Patronum Ankaralı."
+  },
+  {
+   "id": "too",
+   "en": "too",
+   "tr": "de, da (ben de)",
+   "pos": "adverb",
+   "ipa": "tuː",
+   "ex_en": "I'm a designer too.",
+   "ex_tr": "Ben de tasarımcıyım."
+  },
+  {
+   "id": "north",
+   "en": "north",
+   "tr": "kuzey",
+   "pos": "noun",
+   "ipa": "nɔːrθ",
+   "ex_en": "Samsun is in the north.",
+   "ex_tr": "Samsun kuzeyde."
+  }
+ ],
+ "listening": {
+  "h": "Dinleme: Uğur'un ajansındaki üç kişi",
+  "text_en": "This is my agency. It's small but nice. My boss is Ali. He's from Ankara. My friend Zeynep is a designer. She's from Samsun. Our client today is Mark. He's from the USA. He's very nice.",
+  "text_tr": "Burası benim ajansım. Küçük ama güzel. Patronum Ali. O Ankaralı. Arkadaşım Zeynep tasarımcı. O Samsunlu. Bugünkü müşterimiz Mark. O Amerikalı. Çok nazik.",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "Ali nereli?",
+    "options": [
+     "Samsun",
+     "Ankara",
+     "the USA"
+    ],
+    "answer": "Ankara",
+    "why_tr": "'My boss is Ali. He's from Ankara.'"
+   },
+   {
+    "type": "choice",
+    "q": "Zeynep kim?",
+    "options": [
+     "patron (boss)",
+     "müşteri (client)",
+     "tasarımcı arkadaş (designer, friend)"
+    ],
+    "answer": "tasarımcı arkadaş (designer, friend)",
+    "why_tr": "'My friend Zeynep is a designer.'"
+   },
+   {
+    "type": "choice",
+    "q": "Ajans nasıl?",
+    "options": [
+     "big",
+     "small",
+     "cold"
+    ],
+    "answer": "small",
+    "why_tr": "'It's small but nice.'"
+   }
+  ]
+ },
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "She ___ from London.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "is",
+   "why_tr": "she → is."
+  },
+  {
+   "type": "choice",
+   "q": "My boss ___ from Ankara.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "is",
+   "why_tr": "'My boss' tek kişi (he) → is."
+  },
+  {
+   "type": "choice",
+   "q": "Samsun is nice. ___ is a big city.",
+   "options": [
+    "He",
+    "She",
+    "It"
+   ],
+   "answer": "It",
+   "why_tr": "Şehir → it."
+  },
+  {
+   "type": "choice",
+   "q": "My sister is a teacher. ___ is from Samsun.",
+   "options": [
+    "He",
+    "She",
+    "It"
+   ],
+   "answer": "She",
+   "why_tr": "sister (kız kardeş) → she."
+  },
+  {
+   "type": "choice",
+   "q": "___ is she from? — Spain.",
+   "options": [
+    "What",
+    "Where",
+    "How"
+   ],
+   "answer": "Where",
+   "why_tr": "Yer soruyoruz → Where."
+  },
+  {
+   "type": "fill",
+   "q": "Where ___ you from?",
+   "answer": "are",
+   "why_tr": "you → are."
+  },
+  {
+   "type": "fill",
+   "q": "He ___ (be) not from Germany. He's from France.",
+   "answer": "is",
+   "alt": [
+    "'s"
+   ],
+   "why_tr": "he + is + not → isn't / 's not."
+  },
+  {
+   "type": "order",
+   "words": [
+    "from",
+    "are",
+    "Where",
+    "you",
+    "?"
+   ],
+   "answer": "Where are you from?",
+   "why_tr": "Soru kelimesi + fiil + özne + from."
+  },
+  {
+   "type": "order",
+   "words": [
+    "is",
+    "She",
+    "Spain",
+    "from"
+   ],
+   "answer": "She is from Spain",
+   "why_tr": "Özne + is + from + yer."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "Germany",
+     "Almanya"
+    ],
+    [
+     "Spain",
+     "İspanya"
+    ],
+    [
+     "England",
+     "İngiltere"
+    ],
+    [
+     "country",
+     "ülke"
+    ],
+    [
+     "north",
+     "kuzey"
+    ]
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Nerelisin?",
+   "answer": "Where are you from?",
+   "alt": [
+    "Where are you from"
+   ],
+   "why_tr": "Kalıp olarak ezberle."
+  },
+  {
+   "type": "translate",
+   "q": "O (kadın) İngiltereli değil.",
+   "answer": "She isn't from England.",
+   "alt": [
+    "She is not from England.",
+    "She's not from England."
+   ],
+   "why_tr": "she + isn't + from."
+  },
+  {
+   "type": "translate",
+   "q": "Patronum Ankaralı.",
+   "answer": "My boss is from Ankara.",
+   "alt": [
+    "My boss's from Ankara."
+   ],
+   "why_tr": "Tek kişi → is; nereli → from."
+  },
+  {
+   "type": "listen",
+   "say": "She's from Spain. She's a motion designer.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "She's from Spain. She's a motion designer.",
+   "alt": [
+    "She is from Spain. She is a motion designer."
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "Where are you from? I'm from Turkey.",
+   "q": "Dinle ve tekrar et. 'ver ar yu FRAM? aym fram TÖR-ki.'"
+  },
+  {
+   "type": "speak",
+   "say": "It is a big ship. It is a big sheep.",
+   "q": "Dinle ve tekrar et: 'şıp' kısa, 'şiip' uzun. Farkı abart."
+  },
+  {
+   "type": "correct",
+   "q": "My friend Lucía is from Spain. He is a designer.",
+   "answer": "My friend Lucía is from Spain. She is a designer.",
+   "alt": [
+    "My friend Lucía is from Spain. She's a designer."
+   ],
+   "why_tr": "Lucía kadın → she."
+  },
+  {
+   "type": "correct",
+   "q": "I am Samsun.",
+   "answer": "I am from Samsun.",
+   "alt": [
+    "I'm from Samsun."
+   ],
+   "why_tr": "'from' eksik; 'I am Samsun' = 'Ben Samsun'um'."
+  },
+  {
+   "type": "correct",
+   "q": "Are you tired? — Yes, I'm.",
+   "answer": "Are you tired? — Yes, I am.",
+   "alt": [
+    "Yes, I am."
+   ],
+   "why_tr": "Dünden: olumlu kısa cevapta kısaltma yok."
+  },
+  {
+   "type": "free",
+   "q": "Ajanstan bir kişiyi 2 cümleyle anlat: adı ve nereli olduğu (He/She is ...).",
+   "min_words": 6,
+   "rubric_tr": "he/she doğru seçilmiş mi; is var mı; from var mı."
+  }
+ ],
+ "speaking": {
+  "scenario_tr": "Emma'yla kahve molasındasın. Sana nereli olduğunu soracak; Samsun'u iki cümleyle tanıt (It's in the north, it's a big city). Sonra sen Emma'ya nereli olduğunu ve arkadaşının nereli olduğunu sor. En az bir kez 'he' ya da 'she' ile cümle kur.",
+  "role_en": "You are Emma, a British designer chatting with Uğur during a coffee break at a design meetup. Lesson focus: he/she/it + is, 'Where are you from?'. Ask where he is from, ask about his city, then mention your friend Lucía from Spain so he can ask 'Is she...?' questions. One short sentence plus one question per turn. Only am/is/are grammar.",
+  "opener_en": "Hi Uğur! So, where are you from?",
+  "targets": [
+   "I'm from Turkey / Samsun.",
+   "It's in the north. It's a big city.",
+   "Where are you from?",
+   "Is she from London?",
+   "She's a designer.",
+   "He's from the USA."
+  ],
+  "hints_tr": [
+   "Türkiye'den ve Samsun'dan olduğunu söyle",
+   "Samsun'u 'It's ...' ile anlat",
+   "Emma'ya nereli olduğunu sor",
+   "Arkadaşı Lucía için 'Is she ...?' sorusu sor"
+  ],
+  "min_turns": 6
+ },
+ "homework": {
+  "written": {
+   "prompt_tr": "Ailenden ya da ajanstan 3 kişiyi yaz; her biri için 2 cümle: kim olduğu/ne iş yaptığı ve nereli olduğu (He/She is ...). Toplam en az 6 cümle.",
+   "min_sentences": 6,
+   "model_en": "My boss is Ali. He is from Ankara. My friend Zeynep is a designer. She is from Samsun. My mother is a teacher. She is from Trabzon."
+  },
+  "spoken": {
+   "prompt_tr": "Aşağıdaki 6 cümleyi sesli söyle (ya da yaz):",
+   "sentences": [
+    "Where are you from?",
+    "I'm from Samsun. It's in the north.",
+    "She's from Spain.",
+    "He isn't from England.",
+    "Is she a designer? Yes, she is.",
+    "It's a big city."
+   ]
+  },
+  "habit_tr": "Bugün gördüğün 3 kişi için içinden İngilizce söyle: 'He is from ...' / 'She is from ...'."
+ },
+ "summary": {
+  "rule_md": "**he / she / it → is** (he's, she's, it's). Türkçe 'o' üçe ayrılır: erkek he, kadın she, geri kalan her şey it. Tek bir kişi/şey adı (my boss, Emma, Samsun) da is alır.\n\n- Nereli: `Where are you from?` → `I'm from Samsun.` (from düşmez!)\n- Olumsuz: `She isn't from England.` · Soru: `Is he your boss? Yes, he is.`",
+  "examples": [
+   {
+    "en": "Where are you from? — I'm from Turkey.",
+    "tr": "Nerelisin? — Türkiye'denim."
+   },
+   {
+    "en": "She's from Spain. She's a designer.",
+    "tr": "O İspanyalı. Tasarımcı."
+   },
+   {
+    "en": "Samsun is in the north. It's a big city.",
+    "tr": "Samsun kuzeyde. Büyük bir şehir."
+   }
+  ]
+ },
+ "adapt_note_tr": "Alıştırmaların 3'ü dünün konusundan (I/you + am/are, kısa cevap). Telaffuz hedefi değişti: ship/sheep."
+}

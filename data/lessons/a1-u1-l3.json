@@ -1,0 +1,817 @@
+{
+ "id": "a1-u1-l3",
+ "course": "A1",
+ "unit": 1,
+ "lesson": 3,
+ "n": 3,
+ "type": "lesson",
+ "title_tr": "Biz, siz, onlar",
+ "title_en": "We, you, they",
+ "date": "2026-11-04",
+ "minutes": 35,
+ "goals_tr": [
+  "we / you / they ile 'are' kullanabileceksin: We are designers.",
+  "'to be' tablosunun tamamını (am / is / are) ezbere söyleyebileceksin.",
+  "Milliyet söyleyebileceksin: I'm Turkish. She's Spanish.",
+  "'Are you...?' sorularına Yes/No kısa cevap verebileceksin.",
+  "job / German / teacher'daki /dʒ/ ve /tʃ/ seslerini ayırabileceksin."
+ ],
+ "prev_check": {
+  "homework_feedback_md": null,
+  "score": null,
+  "quiz": [
+   {
+    "type": "choice",
+    "q": "My sister is a teacher. ___ is from Samsun.",
+    "options": [
+     "He",
+     "She",
+     "It"
+    ],
+    "answer": "She",
+    "why_tr": "sister → she."
+   },
+   {
+    "type": "fill",
+    "q": "Where ___ you from?",
+    "answer": "are",
+    "why_tr": "you → are."
+   },
+   {
+    "type": "choice",
+    "q": "Samsun ___ a big city.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is",
+    "why_tr": "Samsun = it → is."
+   },
+   {
+    "type": "translate",
+    "q": "O (erkek) Almanyalı değil.",
+    "answer": "He isn't from Germany.",
+    "alt": [
+     "He is not from Germany.",
+     "He's not from Germany."
+    ],
+    "why_tr": "he + isn't + from."
+   },
+   {
+    "type": "choice",
+    "q": "I'm ___ Turkey.",
+    "options": [
+     "in",
+     "from",
+     "of"
+    ],
+    "answer": "from",
+    "why_tr": "Nereli → from."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "t": "text",
+   "h": "Son parça: biz, siz, onlar",
+   "md": "İki günde `I am`, `you are`, `he/she/it is` dedik. Bugün tabloyu tamamlıyoruz; geriye üç özne kaldı ve **üçünün de fiili aynı: are**.\n\n- `we` → biz → `We are designers.`\n- `you` → siz (çoğul) → `You are my clients.`\n- `they` → onlar → `They are from Germany.`\n\nİyi haber: `you` tekil de çoğul da `are` alır. Türkçede 'sen' ve 'siz' ayrı; İngilizcede ikisi de `you`. Kibarlık için 'siz' diye bir form yok; patrona da müşteriye de `you` dersin, kabalık sayılmaz.\n\n`they` de kolay: insan, hayvan, nesne fark etmez, çoğulsa `they`. 'Müşteriler' de `they`, 'dosyalar' da `they`.\n\nKısaltmalar: `we're`, `you're`, `they're`. Olumsuz: `we aren't`, `they aren't` (ya da `we're not`). Soru: `Are they...?`\n\nŞimdi tablonun tamamına bak; bunu ezberlediğinde A1'in en büyük kapısını geçmiş oluyorsun."
+  },
+  {
+   "t": "table",
+   "h": "to be — TAM TABLO",
+   "cols": [
+    "Özne",
+    "Olumlu",
+    "Kısa",
+    "Olumsuz",
+    "Soru",
+    "Kısa cevap"
+   ],
+   "rows": [
+    [
+     "I",
+     "I am",
+     "I'm",
+     "I'm not",
+     "Am I?",
+     "Yes, I am. / No, I'm not."
+    ],
+    [
+     "you",
+     "you are",
+     "you're",
+     "you aren't",
+     "Are you?",
+     "Yes, you are. / No, you aren't."
+    ],
+    [
+     "he / she / it",
+     "he is",
+     "he's",
+     "he isn't",
+     "Is he?",
+     "Yes, he is. / No, he isn't."
+    ],
+    [
+     "we",
+     "we are",
+     "we're",
+     "we aren't",
+     "Are we?",
+     "Yes, we are. / No, we aren't."
+    ],
+    [
+     "you (siz)",
+     "you are",
+     "you're",
+     "you aren't",
+     "Are you?",
+     "Yes, we are. / No, we aren't."
+    ],
+    [
+     "they",
+     "they are",
+     "they're",
+     "they aren't",
+     "Are they?",
+     "Yes, they are. / No, they aren't."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "ipucu",
+   "md": "**Ezber kısayolu:** sadece iki istisna var: `I am` ve `he/she/it is`. **Geri kalan her şey are.** Yani bir özne gördüğünde sor: 'ben mi?' → am; 'tek bir üçüncü kişi mi?' → is; değilse → are."
+  },
+  {
+   "t": "examples",
+   "h": "Örnekler",
+   "items": [
+    {
+     "en": "We are designers.",
+     "tr": "Biz tasarımcıyız.",
+     "note": "çoğul: designer → designers"
+    },
+    {
+     "en": "We're from Samsun.",
+     "tr": "Biz Samsunluyuz."
+    },
+    {
+     "en": "You are my clients.",
+     "tr": "Siz benim müşterilerimsiniz."
+    },
+    {
+     "en": "They are from Germany.",
+     "tr": "Onlar Almanyalı."
+    },
+    {
+     "en": "They're happy with the design.",
+     "tr": "Tasarımdan memnunlar."
+    },
+    {
+     "en": "We aren't tired. We're busy.",
+     "tr": "Yorgun değiliz. Meşgulüz."
+    },
+    {
+     "en": "Are you and Zeynep at the office? Yes, we are.",
+     "tr": "Sen ve Zeynep ofiste misiniz? Evet."
+    },
+    {
+     "en": "Are they designers? No, they aren't. They're clients.",
+     "tr": "Onlar tasarımcı mı? Hayır. Müşteriler."
+    },
+    {
+     "en": "My parents are in Samsun.",
+     "tr": "Annemle babam Samsun'da.",
+     "note": "my parents = they → are"
+    }
+   ]
+  },
+  {
+   "t": "text",
+   "h": "Milliyetler: I'm Turkish",
+   "md": "Dün `I'm from Turkey` dedik. Aynı şeyi tek kelimeyle de söyleyebilirsin: `I'm Turkish.`\n\nİkisi de doğru; `from + ülke` daha güvenli, çünkü ülke adını bilmen yeter. Milliyet kelimeleri biraz düzensiz, en sık kullanılanları ezberle:\n\n- Turkey → **Turkish** · England → **English** · Spain → **Spanish**\n- Germany → **German** · Italy → **Italian** · Russia → **Russian** · Brazil → **Brazilian**\n- France → **French** · Japan → **Japanese** · the USA → **American**\n\nİki dikkat: milliyet de ülke gibi **büyük harfle** yazılır (`Turkish`, 'turkish' değil). Ve milliyet sıfattır, önüne `a` gelmez: ✗ `I'm a Turkish.` ✓ `I'm Turkish.`\n\nÇoğul: `We're Turkish.` `They're German.` Sıfat değişmez; Türkçedeki 'Türkler' gibi -ler eki yok."
+  },
+  {
+   "t": "table",
+   "h": "Ülke → milliyet",
+   "cols": [
+    "Ülke",
+    "Milliyet",
+    "Dil"
+   ],
+   "rows": [
+    [
+     "Turkey",
+     "Turkish",
+     "Turkish"
+    ],
+    [
+     "England",
+     "English",
+     "English"
+    ],
+    [
+     "the USA",
+     "American",
+     "English"
+    ],
+    [
+     "Germany",
+     "German",
+     "German"
+    ],
+    [
+     "Spain",
+     "Spanish",
+     "Spanish"
+    ],
+    [
+     "Italy",
+     "Italian",
+     "Italian"
+    ],
+    [
+     "France",
+     "French",
+     "French"
+    ],
+    [
+     "Japan",
+     "Japanese",
+     "Japanese"
+    ],
+    [
+     "Russia",
+     "Russian",
+     "Russian"
+    ]
+   ]
+  },
+  {
+   "t": "dialogue",
+   "h": "Diyalog: Ajansta yeni müşteriler",
+   "lines": [
+    {
+     "who": "Emma",
+     "en": "Uğur, who are they?",
+     "tr": "Uğur, onlar kim?"
+    },
+    {
+     "who": "Uğur",
+     "en": "They're our new clients. They're from Germany.",
+     "tr": "Yeni müşterilerimiz. Almanyalılar."
+    },
+    {
+     "who": "Emma",
+     "en": "Oh, are they designers too?",
+     "tr": "Aa, onlar da mı tasarımcı?"
+    },
+    {
+     "who": "Uğur",
+     "en": "No, they aren't. They're from a coffee company.",
+     "tr": "Hayır. Bir kahve şirketindenler."
+    },
+    {
+     "who": "Emma",
+     "en": "Nice! And you and Zeynep? Are you busy today?",
+     "tr": "Güzel! Peki sen ve Zeynep? Bugün meşgul müsünüz?"
+    },
+    {
+     "who": "Uğur",
+     "en": "Yes, we are. We're very busy. The deadline is tomorrow.",
+     "tr": "Evet. Çok meşgulüz. Teslim tarihi yarın."
+    },
+    {
+     "who": "Emma",
+     "en": "Are you tired?",
+     "tr": "Yorgun musunuz?"
+    },
+    {
+     "who": "Uğur",
+     "en": "A little. But we're happy. The design is good.",
+     "tr": "Biraz. Ama mutluyuz. Tasarım iyi."
+    },
+    {
+     "who": "Emma",
+     "en": "Is your boss happy?",
+     "tr": "Patronun memnun mu?"
+    },
+    {
+     "who": "Uğur",
+     "en": "Yes, he is. He's always happy!",
+     "tr": "Evet. O her zaman mutludur!"
+    },
+    {
+     "who": "Emma",
+     "en": "Ha! Good luck with the deadline.",
+     "tr": "Ha! Teslimde bol şans."
+    },
+    {
+     "who": "Uğur",
+     "en": "Thanks, Emma.",
+     "tr": "Teşekkürler Emma."
+    }
+   ]
+  },
+  {
+   "t": "pronounce",
+   "h": "Telaffuz: /dʒ/ (c) ve /tʃ/ (ç)",
+   "items": [
+    {
+     "en": "job",
+     "hint": "'cab' — Türkçe 'c' sesi; 'job' diye 'j' (jandarma) okuma"
+    },
+    {
+     "en": "German",
+     "hint": "'CÖR-mın' — baştaki G 'c' okunur"
+    },
+    {
+     "en": "Japan",
+     "hint": "'cı-PEN' — vurgu sonda"
+    },
+    {
+     "en": "teacher",
+     "hint": "'Tİİ-çır' — 'ch' Türkçe 'ç'"
+    },
+    {
+     "en": "chair",
+     "hint": "'çer' — ç ile başlar"
+    },
+    {
+     "en": "Turkish",
+     "hint": "'TÖR-kiş' — sondaki 'sh' = ş"
+    },
+    {
+     "en": "they're",
+     "hint": "'der' — baştaki th yumuşak, dil dişlerin arasında; 'der' ile 'zer' arası"
+    }
+   ]
+  },
+  {
+   "t": "mistakes",
+   "h": "Sık hatalar",
+   "items": [
+    {
+     "wrong": "They is from Germany.",
+     "right": "They are from Germany.",
+     "why": "Çoğul özne → are. 'is' sadece tek bir he/she/it için."
+    },
+    {
+     "wrong": "We are designer.",
+     "right": "We are designers.",
+     "why": "Biz birden fazla kişiyiz; meslek de çoğul olur (-s). Türkçede 'biz tasarımcıyız' tekil kalır, İngilizce kalmaz."
+    },
+    {
+     "wrong": "I'm a Turkish.",
+     "right": "I'm Turkish.",
+     "why": "Milliyet sıfattır; önüne 'a' gelmez. 'a' sadece isimle: a Turkish designer."
+    },
+    {
+     "wrong": "Are you busy? — Yes, I are.",
+     "right": "Yes, I am.",
+     "why": "Cevapta özne değişince fiil de değişir: you are → I am / we are."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "we",
+   "en": "we",
+   "tr": "biz",
+   "pos": "pronoun",
+   "ipa": "wiː",
+   "ex_en": "We are designers.",
+   "ex_tr": "Biz tasarımcıyız."
+  },
+  {
+   "id": "they",
+   "en": "they",
+   "tr": "onlar",
+   "pos": "pronoun",
+   "ipa": "ðeɪ",
+   "ex_en": "They are from Germany.",
+   "ex_tr": "Onlar Almanyalı."
+  },
+  {
+   "id": "client",
+   "en": "client",
+   "tr": "müşteri (ajans müşterisi)",
+   "pos": "noun",
+   "ipa": "ˈklaɪənt",
+   "ex_en": "They're our new clients.",
+   "ex_tr": "Onlar yeni müşterilerimiz."
+  },
+  {
+   "id": "agency",
+   "en": "agency",
+   "tr": "ajans",
+   "pos": "noun",
+   "ipa": "ˈeɪdʒənsi",
+   "ex_en": "Our agency is in Samsun.",
+   "ex_tr": "Ajansımız Samsun'da."
+  },
+  {
+   "id": "busy",
+   "en": "busy",
+   "tr": "meşgul, yoğun",
+   "pos": "adjective",
+   "ipa": "ˈbɪzi",
+   "ex_en": "We're very busy today.",
+   "ex_tr": "Bugün çok yoğunuz."
+  },
+  {
+   "id": "happy",
+   "en": "happy",
+   "tr": "mutlu, memnun",
+   "pos": "adjective",
+   "ipa": "ˈhæpi",
+   "ex_en": "The client is happy.",
+   "ex_tr": "Müşteri memnun."
+  },
+  {
+   "id": "new",
+   "en": "new",
+   "tr": "yeni",
+   "pos": "adjective",
+   "ipa": "nuː",
+   "ex_en": "This is a new project.",
+   "ex_tr": "Bu yeni bir proje."
+  },
+  {
+   "id": "deadline",
+   "en": "deadline",
+   "tr": "teslim tarihi, son gün",
+   "pos": "noun",
+   "ipa": "ˈdedlaɪn",
+   "ex_en": "The deadline is tomorrow.",
+   "ex_tr": "Teslim yarın."
+  },
+  {
+   "id": "turkish",
+   "en": "Turkish",
+   "tr": "Türk, Türkçe",
+   "pos": "adjective",
+   "ipa": "ˈtɜːrkɪʃ",
+   "ex_en": "I'm Turkish.",
+   "ex_tr": "Türküm."
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "tr": "İngiliz, İngilizce",
+   "pos": "adjective",
+   "ipa": "ˈɪŋɡlɪʃ",
+   "ex_en": "Emma is English.",
+   "ex_tr": "Emma İngiliz."
+  },
+  {
+   "id": "german",
+   "en": "German",
+   "tr": "Alman, Almanca",
+   "pos": "adjective",
+   "ipa": "ˈdʒɜːrmən",
+   "ex_en": "Our clients are German.",
+   "ex_tr": "Müşterilerimiz Alman."
+  },
+  {
+   "id": "american",
+   "en": "American",
+   "tr": "Amerikalı",
+   "pos": "adjective",
+   "ipa": "əˈmerɪkən",
+   "ex_en": "Mark is American.",
+   "ex_tr": "Mark Amerikalı."
+  },
+  {
+   "id": "job",
+   "en": "job",
+   "tr": "iş, meslek",
+   "pos": "noun",
+   "ipa": "dʒɑːb",
+   "ex_en": "My job is nice.",
+   "ex_tr": "İşim güzel."
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "tr": "öğretmen",
+   "pos": "noun",
+   "ipa": "ˈtiːtʃər",
+   "ex_en": "My mother is a teacher.",
+   "ex_tr": "Annem öğretmen."
+  },
+  {
+   "id": "parents",
+   "en": "parents",
+   "tr": "anne-baba",
+   "pos": "noun",
+   "ipa": "ˈperənts",
+   "ex_en": "My parents are in Samsun.",
+   "ex_tr": "Annemle babam Samsun'da."
+  }
+ ],
+ "listening": {
+  "h": "Dinleme: Ajanstaki ekip",
+  "text_en": "We are a small agency in Samsun. We are five people. Ali is the boss. Zeynep and I are designers. Burak and Elif are not designers. They are in sales. Today we are very busy, but we are happy. Our new clients are German.",
+  "text_tr": "Samsun'da küçük bir ajansız. Beş kişiyiz. Ali patron. Zeynep ve ben tasarımcıyız. Burak ve Elif tasarımcı değil. Onlar satışta. Bugün çok yoğunuz ama mutluyuz. Yeni müşterilerimiz Alman.",
+  "questions": [
+   {
+    "type": "choice",
+    "q": "Ajans kaç kişi?",
+    "options": [
+     "three",
+     "five",
+     "nine"
+    ],
+    "answer": "five",
+    "why_tr": "'We are five people.'"
+   },
+   {
+    "type": "choice",
+    "q": "Burak ve Elif ne iş yapıyor?",
+    "options": [
+     "designers",
+     "sales (satış)",
+     "clients"
+    ],
+    "answer": "sales (satış)",
+    "why_tr": "'They are in sales.'"
+   },
+   {
+    "type": "choice",
+    "q": "Yeni müşteriler nereli?",
+    "options": [
+     "German",
+     "English",
+     "American"
+    ],
+    "answer": "German",
+    "why_tr": "'Our new clients are German.'"
+   }
+  ]
+ },
+ "exercises": [
+  {
+   "type": "choice",
+   "q": "We ___ designers.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "why_tr": "we → are."
+  },
+  {
+   "type": "choice",
+   "q": "They ___ from Germany.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "why_tr": "they → are."
+  },
+  {
+   "type": "choice",
+   "q": "Are you and Zeynep busy? — Yes, ___.",
+   "options": [
+    "you are",
+    "we are",
+    "they are"
+   ],
+   "answer": "we are",
+   "why_tr": "'Sen ve Zeynep' sorusuna 'biz' diye cevap verilir."
+  },
+  {
+   "type": "choice",
+   "q": "I'm ___.",
+   "options": [
+    "a Turkish",
+    "Turkish",
+    "Turkey"
+   ],
+   "answer": "Turkish",
+   "why_tr": "Milliyet sıfat: a yok. 'I'm from Turkey' de olurdu."
+  },
+  {
+   "type": "choice",
+   "q": "The client ___ happy.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "is",
+   "why_tr": "Tek müşteri → is. (Dünün konusu.)"
+  },
+  {
+   "type": "fill",
+   "q": "We ___ (be) not tired. We're busy.",
+   "answer": "are",
+   "alt": [
+    "'re"
+   ],
+   "why_tr": "we + are + not → aren't."
+  },
+  {
+   "type": "fill",
+   "q": "___ they designers? — No, they aren't.",
+   "answer": "Are",
+   "alt": [
+    "are"
+   ],
+   "why_tr": "Soru: Are they...?"
+  },
+  {
+   "type": "order",
+   "words": [
+    "are",
+    "clients",
+    "They",
+    "new",
+    "our"
+   ],
+   "answer": "They are our new clients",
+   "why_tr": "They + are + our + new + clients."
+  },
+  {
+   "type": "order",
+   "words": [
+    "busy",
+    "you",
+    "Are",
+    "today",
+    "?"
+   ],
+   "answer": "Are you busy today?",
+   "why_tr": "Are + you + sıfat + zaman."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "Germany",
+     "German"
+    ],
+    [
+     "Spain",
+     "Spanish"
+    ],
+    [
+     "Italy",
+     "Italian"
+    ],
+    [
+     "Turkey",
+     "Turkish"
+    ],
+    [
+     "the USA",
+     "American"
+    ]
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Biz tasarımcıyız.",
+   "answer": "We are designers.",
+   "alt": [
+    "We're designers."
+   ],
+   "why_tr": "we + are; meslek çoğul (-s)."
+  },
+  {
+   "type": "translate",
+   "q": "Onlar yorgun değil.",
+   "answer": "They aren't tired.",
+   "alt": [
+    "They are not tired.",
+    "They're not tired."
+   ],
+   "why_tr": "they + aren't."
+  },
+  {
+   "type": "translate",
+   "q": "Müşteriler mutlu mu? Evet.",
+   "answer": "Are the clients happy? Yes, they are.",
+   "alt": [
+    "Are the clients happy? Yes, they are"
+   ],
+   "why_tr": "Soru başa are; cevapta 'the clients' → they."
+  },
+  {
+   "type": "listen",
+   "say": "They're our new clients. They're from Germany.",
+   "q": "Ne duydun? Yaz.",
+   "answer": "They're our new clients. They're from Germany.",
+   "alt": [
+    "They are our new clients. They are from Germany."
+   ]
+  },
+  {
+   "type": "speak",
+   "say": "We're very busy. The deadline is tomorrow.",
+   "q": "Dinle ve tekrar et. 'vir VE-ri Bİ-zi. dı DED-layn ız tı-MA-rov.'"
+  },
+  {
+   "type": "speak",
+   "say": "Job. German. Teacher. Chair.",
+   "q": "Dinle ve tekrar et: ilk ikisi 'c', son ikisi 'ç'."
+  },
+  {
+   "type": "correct",
+   "q": "They is from Spain.",
+   "answer": "They are from Spain.",
+   "alt": [
+    "They're from Spain."
+   ],
+   "why_tr": "they → are."
+  },
+  {
+   "type": "correct",
+   "q": "We are designer.",
+   "answer": "We are designers.",
+   "alt": [
+    "We're designers."
+   ],
+   "why_tr": "Çoğul özne, çoğul meslek."
+  },
+  {
+   "type": "correct",
+   "q": "She are my friend.",
+   "answer": "She is my friend.",
+   "alt": [
+    "She's my friend."
+   ],
+   "why_tr": "Dünden: she → is."
+  },
+  {
+   "type": "free",
+   "q": "Ajansını 3 cümleyle anlat: kaç kişisiniz, ne iş yapıyorsunuz, bugün nasılsınız (We are ...).",
+   "min_words": 10,
+   "rubric_tr": "we + are doğru mu; çoğul isimlerde -s var mı; sıfatlarda (busy, happy) fiil düşmüş mü."
+  }
+ ],
+ "speaking": {
+  "scenario_tr": "Emma ajansını ziyaret ediyor. Ona ekibini tanıt: kaç kişisiniz, kimler tasarımcı, müşterileriniz nereli, bugün meşgul müsünüz. Emma da kendi ekibini anlatacak; sen 'Are they...?' diye en az iki soru sor.",
+  "role_en": "You are Emma visiting Uğur's agency in Samsun. Lesson focus: we/you/they + are, nationalities, short answers. Ask about his team (How many people? Are they designers? Are your clients Turkish?), then describe your own London team briefly so he can ask 'Are they...?' questions. One short sentence plus one question per turn. Only be-verb grammar; keep vocabulary to lessons 1-3.",
+  "opener_en": "Wow, nice office! So, who are they? Are they designers?",
+  "targets": [
+   "We are five people.",
+   "We're designers.",
+   "They're our clients. They're German.",
+   "Yes, we are. / No, we aren't.",
+   "Are they designers?",
+   "I'm Turkish."
+  ],
+  "hints_tr": [
+   "Kaç kişi olduğunuzu söyle: We are ... people.",
+   "Kim tasarımcı, kim değil: ... are designers / ... aren't.",
+   "Müşterilerin nereli: They're from ... / They're German.",
+   "Emma'nın ekibi için 'Are they ...?' sor"
+  ],
+  "min_turns": 6
+ },
+ "homework": {
+  "written": {
+   "prompt_tr": "Ekibini ya da arkadaş grubunu 6 cümleyle anlat. En az 2 cümle 'We are...', en az 2 cümle 'They are...' ile başlasın; 1 olumsuz cümle olsun.",
+   "min_sentences": 6,
+   "model_en": "We are a small team. We are five people. We are designers. Our clients are from Germany. They are very nice. They aren't designers."
+  },
+  "spoken": {
+   "prompt_tr": "Aşağıdaki 6 cümleyi sesli söyle (ya da yaz):",
+   "sentences": [
+    "We're designers.",
+    "They're from Germany.",
+    "We aren't tired. We're busy.",
+    "Are they your clients? Yes, they are.",
+    "I'm Turkish. She's Spanish.",
+    "My parents are in Samsun."
+   ]
+  },
+  "habit_tr": "Bugün 'to be' tablosunu (I am, you are, he is...) bir kez sesli, bakmadan söyle. 20 saniye sürer."
+ },
+ "summary": {
+  "rule_md": "**we / you / they → are** (we're, they're). Sadece iki istisna: `I am` ve `he/she/it is`; geri kalan her şey `are`.\n\n- Çoğul özne → çoğul isim: `We are designers.`\n- Milliyet sıfattır, `a` almaz: `I'm Turkish.`\n- Kısa cevapta özne değişir: `Are you busy? — Yes, we are.`",
+  "examples": [
+   {
+    "en": "We're from Samsun. We're designers.",
+    "tr": "Biz Samsunluyuz. Tasarımcıyız."
+   },
+   {
+    "en": "They're our clients. They aren't designers.",
+    "tr": "Onlar müşterimiz. Tasarımcı değiller."
+   },
+   {
+    "en": "Are they German? Yes, they are.",
+    "tr": "Onlar Alman mı? Evet."
+   }
+  ]
+ },
+ "adapt_note_tr": "to be tablosu bugün tamamlandı; yarın bu fiili soru kelimeleriyle (What, Where, How old, Who) kullanacağız."
+}
