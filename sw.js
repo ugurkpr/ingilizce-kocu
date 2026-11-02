@@ -1,10 +1,10 @@
 /* İngilizce Koçu — service worker.
    Uygulama kabuğu önbelleğe alınır (ağ önce, yoksa önbellek). data/ ve API çağrıları asla önbelleğe alınmaz.
    Google Fonts: önbellek önce, arkada tazele. */
-const VERSION = 'ik3-3.0.0';
+const VERSION = 'ik3-3.0.1';
 const SHELL_CACHE = VERSION + '-shell';
 const FONT_CACHE = VERSION + '-fonts';
-const SHELL = ['./', './index.html', './app.css', './app.js', './content.js', './manifest.webmanifest',
+const SHELL = ['./', './index.html', './app.css?v=3.0.1', './app.js?v=3.0.1', './content.js', './manifest.webmanifest',
   './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
@@ -26,7 +26,7 @@ self.addEventListener('message', e => {
   if (e.data === 'skip-waiting') self.skipWaiting();
 });
 
-const isShellPath = p => SHELL.some(u => p.endsWith(u.replace('./', '/')) || (u === './' && (p.endsWith('/') || p.endsWith('/index.html'))));
+const isShellPath = p => SHELL.some(u => { const base = u.split('?')[0]; return p.endsWith(base.replace('./', '/')) || (base === './' && (p.endsWith('/') || p.endsWith('/index.html'))); });
 
 self.addEventListener('fetch', e => {
   const req = e.request;

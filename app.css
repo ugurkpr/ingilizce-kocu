@@ -47,12 +47,15 @@
 }
 
 *,*::before,*::after{box-sizing:border-box}
-html{height:100%; -webkit-text-size-adjust:100%}
+/* Yatay taşma güvenlik ağı: html+body yatayda kilitli; #app içeriği yatayda kırpar (clip kaydırma
+   kapsayıcısı oluşturmaz, sticky/fixed öğeler bozulmaz). Asıl düzeltme aşağıda: uzun kelimeler kırılır,
+   flex/grid çocuklarında min-width:0. */
+html{height:100%; -webkit-text-size-adjust:100%; overflow-x:hidden}
 body{
   margin:0; min-height:100%; background:var(--paper); color:var(--ink);
   font-family:var(--font-body); font-size:16px; line-height:1.5;
   -webkit-font-smoothing:antialiased; -webkit-tap-highlight-color:transparent; overflow-x:hidden;
-  overscroll-behavior-y:none;
+  overscroll-behavior-y:none; position:relative;
 }
 body::before{content:""; position:fixed; inset:0 0 auto; height:var(--sat); z-index:40; background:var(--paper)}
 button,input,textarea,select{font:inherit; color:inherit}
@@ -67,15 +70,26 @@ a{color:inherit}
 svg.ic{width:1.15em; height:1.15em; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex:0 0 auto; vertical-align:-.2em}
 
 #app{
-  min-height:100vh; max-width:720px; margin:0 auto;
+  min-height:100vh; width:100%; max-width:720px; margin:0 auto; overflow-x:clip;
   padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
   padding-top:calc(12px + var(--sat)); padding-bottom:calc(var(--tabbar) + 28px + var(--sab));
   display:flex; flex-direction:column; gap:16px;
+  overflow-wrap:anywhere;
 }
-.topline{display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:40px}
+/* Uzun İngilizce kelime / URL gerekirse kırılır (yukarıda #app'ten kalıtılır); düğme etiketleri doğal sarsın. */
+.btn,.tab,.sc,.segs button,.rate button,.iconbtn,.gear,.back{overflow-wrap:normal}
+.btn{max-width:100%}
+/* Flex/grid çocukları içerikten dar olabilsin (yoksa uzun kelime kapsayıcıyı genişletir). */
+.topline .right,.exam-head .hint,.msg .bubble,.vcard .top > div,.dline > div,.ex > div,.hw-sent > div,.vrow > div,
+.gitem > span,.lrow > span,.unit > button > span,.set-row > div,.prow > div,.nbox > div,.habit > div,.install > div,
+.lsec > h2,.lsec > .lead,.qbox .qhead > *,.tl > span,.scenario,.keycard,.feedback,.verdict,.lbox{min-width:0}
+.chip,.opt,.targets span,.trnote,.interim,.heard{max-width:100%; min-width:0}
+img,svg,video{max-width:100%}
+.topline{display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px}
 .brand{font-family:var(--font-display); font-weight:500; font-size:1.05rem; color:var(--ink-2); display:inline-flex; align-items:center; gap:8px}
 .brand i{width:10px; height:10px; border-radius:50%; background:var(--accent); display:inline-block}
 .topline .right{display:inline-flex; align-items:center; gap:6px}
+.topline .right:empty{display:none}
 .streak{display:inline-flex; align-items:center; gap:5px; font-weight:600; font-size:.92rem; color:var(--ink-2); font-variant-numeric:tabular-nums; padding:0 6px}
 .streak b{color:var(--ink); font-weight:700}
 .streak .ic{color:var(--accent)}
@@ -168,8 +182,10 @@ svg.ic{width:1.15em; height:1.15em; stroke:currentColor; fill:none; stroke-width
 
 /* Ders sayfası */
 .lesson-head{display:flex; flex-direction:column; gap:10px}
-.back{display:inline-flex; align-items:center; gap:4px; color:var(--ink-2); font-weight:600; font-size:.95rem; min-height:36px; padding:0 6px 0 0}
-.back .ic{width:18px; height:18px}
+/* Geri düğmesi: topline'ın solunda, 44px dokunma alanı, ok ikonu kenar hizasında */
+.back{display:inline-flex; align-items:center; gap:2px; color:var(--ink-2); font-weight:600; font-size:.95rem; min-height:44px; padding:0 14px 0 6px; margin-left:-8px; border-radius:999px; flex:0 0 auto; white-space:nowrap; transition:background .15s,color .15s}
+.back:hover,.back:active{background:var(--sunk); color:var(--ink)}
+.back .ic{width:20px; height:20px}
 .lesson-top{display:flex; flex-direction:column; gap:6px}
 .lesson-top .kicker{font-family:var(--font-display); color:var(--accent); font-size:.95rem; font-weight:600}
 .lesson-top h1{font-family:var(--font-display); font-size:2.2rem; line-height:1.08; font-variation-settings:"opsz" 72}

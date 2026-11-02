@@ -2,7 +2,7 @@
    Depolama: GitHub Contents API (data/*.json). Claude: doğrudan Messages API. Anahtarlar yalnızca localStorage'da. */
 (() => {
 'use strict';
-const VERSION = '3.0.0';
+const VERSION = '3.0.1';
 const CFG = { owner: 'ugurkpr', repo: 'ingilizce-kocu', branch: 'main', api: 'https://api.github.com' };
 
 /* ============================================================
@@ -922,30 +922,58 @@ const TABS = [
 ];
 const ALL_TABS = [...TABS.map(t => t.id), 'ayarlar'];
 let handlers = {};
-function setHash(h) { try { if (location.hash !== '#' + h) history.replaceState(null, '', '#' + h); } catch (e) { /* yoksay */ } }
-function go(tab, sub = null) {
+/* Geçmiş (history) kuralı: sekmeler arası geçiş replaceState, alt sayfalar (ders, sınav, ayarlar, gramer
+   detayı, kelime tekrarı, sohbet konusu) pushState. Böylece telefonun geri tuşu / kaydırma hareketi alt
+   sayfadan çıkar. history.state'te ikDepth (bu oturumda eklenen girdi sayısı) ve from (önceki hash) tutulur;
+   "Geri" düğmesi önceki girdi beklenen ebeveynse history.back(), değilse ebeveyni yerine koyarak açar. */
+const hashFor = (tab, sub = null) => 'tab-' + tab + (sub ? '/' + sub : '');
+function setHash(h, push = false) {
+  const target = '#' + h; if (location.hash === target) return;
+  const cur = history.state || {}; const depth = cur.ikDepth || 0;
+  try {
+    if (push) history.pushState({ ikDepth: depth + 1, from: location.hash.replace('#', '') || null }, '', target);
+    else history.replaceState({ ikDepth: depth, from: cur.from || null }, '', target);
+  } catch (e) { /* yoksay */ }
+}
+function go(tab, sub = null, opts = {}) {
   Chat.stopAll(); Sound.stop(); Sound.abortListening();
   S.tab = tab; S.sub = sub; S.route = null; S.page = null;
   if (tab !== 'ayarlar') LS.set('tab', tab);
-  setHash('tab-' + tab);
+  if (!opts.fromHash) setHash(hashFor(tab, sub), opts.replace ? false : (tab === 'ayarlar' || !!sub));
   render();
   window.scrollTo({ top: 0 });
 }
-function openRoute(kind, id) {
+function openRoute(kind, id, opts = {}) {
   Chat.stopAll(); Sound.stop(); Sound.abortListening();
   S.route = { kind, id }; S.page = null; S.tab = 'dersler';
-  setHash(kind + '-' + id);
+  if (!opts.fromHash) setHash(kind + '-' + id, !opts.replace);
   render();
   window.scrollTo({ top: 0 });
 }
-function applyHash() {
-  const h = location.hash.replace('#', '');
+function parseHash(h) {
   let m;
-  if ((m = h.match(/^tab-([a-z]+)$/)) && ALL_TABS.includes(m[1])) { if (S.route || S.tab !== m[1]) go(m[1]); return true; }
-  if ((m = h.match(/^(lesson|exam)-([a-z0-9-]+)$/))) { if (!S.route || S.route.id !== m[2]) openRoute(m[1], m[2]); return true; }
-  return false;
+  if ((m = h.match(/^tab-([a-z]+)(?:\/(.+))?$/)) && ALL_TABS.includes(m[1])) return { tab: m[1], sub: m[2] || null };
+  if ((m = h.match(/^(lesson|exam)-([a-z0-9-]+)$/))) return { kind: m[1], id: m[2] };
+  return null;
+}
+function applyHash() {
+  const r = parseHash(location.hash.replace('#', ''));
+  if (!r) return false;
+  if (r.kind) { if (!S.route || S.route.kind !== r.kind || S.route.id !== r.id) openRoute(r.kind, r.id, { fromHash: true }); }
+  else if (S.route || S.tab !== r.tab || (S.sub || null) !== r.sub) go(r.tab, r.sub, { fromHash: true });
+  return true;
+}
+/* Alt sayfadan geri: tab verilmezse geldiği yere (ayarlar için) döner. */
+function navBack(tab, sub = null) {
+  const st = history.state || {};
+  const target = tab ? hashFor(tab, sub) : (st.from || hashFor(LS.get('tab') || 'bugun'));
+  if ((st.ikDepth || 0) > 0 && st.from === target) { history.back(); return; }
+  const r = parseHash(target) || { tab: 'bugun', sub: null };
+  if (r.kind) openRoute(r.kind, r.id, { replace: true }); else go(r.tab, r.sub, { replace: true });
 }
 window.addEventListener('hashchange', applyHash);
+window.addEventListener('popstate', applyHash);
+try { history.scrollRestoration = 'manual'; } catch (e) { /* yoksay */ }
 function renderTabs() {
   const due = dueVocab().length;
   const el = $('#tabs'); if (!el) return;
@@ -983,7 +1011,8 @@ function commonHandlers() {
   handlers['dismiss-install'] = () => { Settings.set('installHintDismissed', true); render(); };
 }
 const settingsWarn = () => (!AI.ready() || !Store.hasToken() || Store.queueCount() > 0);
-const topline = (right = '') => `<div class="topline"><span class="brand"><i aria-hidden="true"></i>İngilizce Koçu</span><span class="right">${right}<button class="gear ${settingsWarn() ? 'warn' : ''}" data-act="go-settings" aria-label="Ayarlar">${ico('gear')}</button></span></div>`;
+/* Üst çizgi. Alt sayfalarda solda "← Geri" (data-act="back"; görünüm kendi handlers.back'ini tanımlar). */
+const topline = (right = '', opts = {}) => `<div class="topline">${opts.back ? `<button class="back" data-act="back">${ico('back')} ${esc(opts.back)}</button>` : `<span class="brand"><i aria-hidden="true"></i>İngilizce Koçu</span>`}<span class="right">${right}${opts.noGear ? '' : `<button class="gear ${settingsWarn() ? 'warn' : ''}" data-act="go-settings" aria-label="Ayarlar">${ico('gear')}</button>`}</span></div>`;
 const streakHtml = () => `<span class="streak" title="Ardışık çalışılan gün">${ico('flame')} <b>${S.main.streak || 0}</b> gün</span>`;
 const dbNote = () => {
   if (S.dbState === 'stale' || S.dbState === 'offline') return `<div class="banner info">${S.online ? 'Depoya henüz ulaşılamadı; gördüğün ilerleme eski olabilir.' : 'İnternet yok; ilerleme bu cihazda saklanıyor, bağlanınca yazılır.'}</div>`;
@@ -1491,7 +1520,7 @@ function lessonHead(doc) {
   const pl = planLesson(doc.id);
   const kicker = doc.type === 'review' ? 'Tekrar günü' : (pl ? `${pl.course.title_tr.split(' ')[0]} · ${pl.unit.n}. ünite · ${doc.lesson || pl.n}. ders` : 'Ders');
   return `<div class="lesson-head">
-    <div class="row between"><button class="back" data-act="back">${ico('back')} Dersler</button><span class="hint">${doc.date ? fmtDate(doc.date) : ''}${doc.minutes ? ` · ~${doc.minutes} dk` : ''}</span></div>
+    ${topline(`<span class="hint">${doc.date ? fmtDate(doc.date) : ''}${doc.minutes ? ` · ~${doc.minutes} dk` : ''}</span>`, { back: 'Geri', noGear: true })}
     <div class="lesson-top"><div class="kicker">${esc(kicker)}</div><h1>${esc(doc.title_tr)}</h1><div class="en-title">${esc(doc.title_en || '')}</div>
       ${doc.goals_tr?.length ? `<ul class="goals">${doc.goals_tr.map(g => `<li>${esc(g)}</li>`).join('')}</ul>` : ''}
       ${doc.adapt_note_tr ? `<div class="banner note" style="margin-top:8px">${esc(doc.adapt_note_tr)}</div>` : ''}
@@ -1506,15 +1535,16 @@ function viewLessonPage() {
   const id = S.route.id;
   const doc = lessonDoc(id);
   if (!doc) {
-    if (S.lessonsState === 'loading') return topline() + `<div class="empty"><div class="en">Loading…</div><p>Ders yükleniyor.</p></div>`;
+    if (S.lessonsState === 'loading') { handlers.back = () => navBack('dersler'); return topline('', { back: 'Geri' }) + `<div class="empty"><div class="en">Loading…</div><p>Ders yükleniyor.</p></div>`; }
     DB.loadLesson(id).then(d => { if (d && S.route?.id === id) render(); });
-    return topline() + `<section class="stack"><button class="back" data-act="back">${ico('back')} Dersler</button><div class="empty"><div class="en">Not yet.</div><p>Bu ders henüz hazırlanmadı. Dersler her sabah 09:00'da gelir.</p></div></section>`;
+    handlers.back = () => navBack('dersler');
+    return topline('', { back: 'Geri' }) + `<section class="stack"><div class="empty"><div class="en">Not yet.</div><p>Bu ders henüz hazırlanmadı. Dersler her sabah 09:00'da gelir.</p></div></section>`;
   }
   if (doc.type === 'speaking_test') return viewSpeakingTest(doc);
   if (doc.type === 'unit_exam') return viewUnitExam(doc);
   if (!S.page || S.page.id !== id) { S.page = newPage(doc); S.stepStart = Date.now(); ensureLogEntry(doc.id); if (doc.type === 'lesson') { S.main.current = S.main.completed[doc.id] ? S.main.current : doc.id; } }
   const pg = S.page; pg.mounts = [];
-  handlers.back = () => go('dersler');
+  handlers.back = () => navBack('dersler');
   handlers.jump = (el, e) => { e.preventDefault(); const t = $('#' + el.dataset.to); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
   const steps = pageSteps(doc);
   const parts = doc.type === 'review'
@@ -1760,10 +1790,10 @@ function examResultHtml(x) {
     ${x.weak?.length ? `<div class="card flat">${sectionTitle('Zayıf konular')}<div class="row">${x.weak.map(w => `<span class="chip" style="font-family:var(--font-body);font-size:.9rem">${esc(grammarById(w)?.title_tr || w)}</span>`).join('')}</div></div>` : ''}
   </div>`;
 }
-function headBar(doc, right = '') { return `<div class="exam-head"><button class="back" data-act="back">${ico('back')} Dersler</button><span class="hint">${esc(doc.title_tr)}</span>${right}</div>`; }
+function headBar(doc, right = '') { return `<div class="exam-head"><button class="back" data-act="back">${ico('back')} Geri</button><span class="hint">${esc(doc.title_tr)}</span>${right}</div>`; }
 function viewSpeakingTest(doc) {
   const prior = S.exams[doc.id];
-  handlers.back = () => go('dersler');
+  handlers.back = () => navBack('dersler');
   if (prior && !(S.page && S.page.id === doc.id && S.page.retake)) {
     handlers.retake = () => { S.page = { id: doc.id, retake: true, part: -1, chats: [], done: [], scoring: false, result: null, startedAt: Date.now(), transcript: [] }; render(); };
     return `<section class="stack">${headBar(doc)}${examResultHtml(prior)}<div class="row between"><button class="btn ghost" data-act="back">Derslere dön</button><button class="btn soft small" data-act="retake">Yeniden gir</button></div></section>`;
@@ -1838,7 +1868,7 @@ async function scoreSpeakingTest(doc, pg) {
    ============================================================ */
 function viewUnitExam(doc) {
   const prior = S.exams[doc.id];
-  handlers.back = () => go('dersler');
+  handlers.back = () => navBack('dersler');
   const ex = doc.exam || {}; const qs = ex.questions || []; const pass = ex.pass || 70;
   if (prior && !(S.page && S.page.id === doc.id && S.page.retake)) {
     handlers.retake = () => { S.page = { id: doc.id, retake: true, started: false, quiz: null, result: null }; render(); };
@@ -1986,8 +2016,8 @@ function viewLessons() {
 }
 function viewExamRoute() {
   const doc = lessonDoc(S.route.id);
-  handlers.back = () => go('dersler');
-  if (!doc) { DB.loadLesson(S.route.id).then(d => { if (d && S.route?.id === d.id) render(); }); return topline() + `<section class="stack"><button class="back" data-act="back">${ico('back')} Dersler</button><div class="empty"><div class="en">Not yet.</div><p>Bu sınav henüz hazırlanmadı.</p></div></section>`; }
+  handlers.back = () => navBack('dersler');
+  if (!doc) { DB.loadLesson(S.route.id).then(d => { if (d && S.route?.id === d.id) render(); }); return topline('', { back: 'Geri' }) + `<section class="stack"><div class="empty"><div class="en">Not yet.</div><p>Bu sınav henüz hazırlanmadı.</p></div></section>`; }
   if (doc.type === 'speaking_test') return viewSpeakingTest(doc);
   if (doc.type === 'unit_exam') return viewUnitExam(doc);
   return viewLessonPage();
@@ -2016,18 +2046,27 @@ function viewSpeak() {
     freeChat.topicId = topic.id;
   }
   const chat = topic ? freeChat : null;
-  handlers.topic = el => { S.sub = el.dataset.id; render(); };
+  handlers.topic = el => go('konus', el.dataset.id);
+  handlers.back = () => navBack('konus');
   handlers['chat-end'] = () => { if (chat && chat.userTurns > 0) Chat.finish(chat, mountChat(chat, 'chatbox')); };
   handlers.__mount = () => { if (chat) mountChat(chat, 'chatbox'); };
   const dead = !aiReady();
+  if (chat) {
+    // Konu açık: alt sayfa. Solda "Geri" konu listesine döner; altta "Konuyu değiştir" de aynı yere.
+    return topline(streakHtml(), { back: 'Geri' }) + `
+  <section class="stack">
+    ${pageTitle(topic.label, 'Free talk')}
+    <div id="chatbox">${Chat.html(chat)}</div>
+    <div class="row between"><button class="btn ghost small" data-act="back">${ico('back')} Konuyu değiştir</button>${!chat.finished ? `<button class="btn ghost small" data-act="chat-end">Sohbeti bitir, geri bildirim al</button>` : ''}</div>
+  </section>`;
+  }
   return topline(streakHtml()) + `
   <section class="stack">
     ${pageTitle('Serbest sohbet', 'Free talk')}
     <p class="muted">Bir konu seç; mikrofona dokun ve İngilizce konuş, ya da yaz. Hata yaparsan sarı notla düzeltilir.</p>
-    <div class="topics">${topics.map(t => `<button class="btn small ghost ${S.sub === t.id ? 'on' : ''}" data-act="topic" data-id="${t.id}">${esc(t.label)}</button>`).join('')}</div>
-    ${dead && !topic ? keyCard() : ''}
-    <div id="chatbox">${chat ? Chat.html(chat) : `<div class="card flat" style="text-align:center"><div class="en" style="font-size:1.5rem">Let's talk.</div><p class="muted small" style="margin-top:6px">Yukarıdan bir konu seçince sohbet başlar.</p></div>`}</div>
-    ${chat && !chat.finished ? `<div class="row end"><button class="btn ghost small" data-act="chat-end">Sohbeti bitir, geri bildirim al</button></div>` : ''}
+    <div class="topics">${topics.map(t => `<button class="btn small ghost" data-act="topic" data-id="${t.id}">${esc(t.label)}</button>`).join('')}</div>
+    ${dead ? keyCard() : ''}
+    <div class="card flat" style="text-align:center"><div class="en" style="font-size:1.5rem">Let's talk.</div><p class="muted small" style="margin-top:6px">Yukarıdan bir konu seçince sohbet başlar.</p></div>
   </section>`;
 }
 
@@ -2044,7 +2083,7 @@ function viewResources() {
   if (resSeg === 'gramer') {
     const topics = (C?.grammar || []).slice().sort((a, b) => (a.order || 0) - (b.order || 0));
     const coveredBy = id => flatLessons().find(l => (l.grammar || []).includes(id));
-    handlers['open-g'] = el => { S.sub = 'g:' + el.dataset.id; S.gq = null; render(); };
+    handlers['open-g'] = el => { S.gq = null; go('kaynaklar', 'g:' + el.dataset.id); };
     body = `<div class="card tight"><div class="glist">${topics.map((g, i) => { const l = coveredBy(g.id); const done = l && S.main.completed[l.id]; const weak = S.main.weak[g.id] || 0;
       return `<button class="gitem" data-act="open-g" data-id="${g.id}"><span class="n">${i + 1}</span><span><span class="t">${esc(g.title_tr)}</span><br><span class="s">${esc(g.title_en)}</span>${l ? `<span class="hint"> · ${l.unit.n}.${l.n}</span>` : ''}${weak >= 3 ? `<span class="hint" style="color:var(--bad)"> · zayıf</span>` : ''}</span><span class="mark ${done ? 'done' : ''}">${done ? ico('check') : '·'}</span></button>`; }).join('')}</div></div>`;
   } else if (resSeg === 'kelime') {
@@ -2066,7 +2105,7 @@ function vocabBook() {
   const due = dueVocab();
   handlers['f-level'] = el => { f.level = el.dataset.v; render(); };
   handlers['f-unit'] = el => { f.unit = el.dataset.v; render(); };
-  handlers.srs = () => { S.sub = 'srs'; S.srs = null; render(); };
+  handlers.srs = () => { S.srs = null; go('kaynaklar', 'srs'); };
   handlers.__mount = () => { const i = $('#vsearch'); if (i) i.addEventListener('input', () => { f.q = i.value; const list = $('#vlist'); if (list) list.innerHTML = rows(); }); };
   const rows = () => { const fl = all.filter(w => (f.level === 'all' || w.level === f.level) && (f.unit === 'all' || w.unit === f.unit) && (!f.q || normalize(w.en).includes(normalize(f.q)) || normalize(w.tr).includes(normalize(f.q))));
     if (!fl.length) return `<p class="hint" style="padding:16px 0">Eşleşen kelime yok.</p>`;
@@ -2082,10 +2121,10 @@ function vocabBook() {
 function grammarDetail(g) {
   if (!S.gq) S.gq = Quiz.create({ questions: g.quick_check || [], topicIds: [g.id], doneText: 'Hızlı kontrol bitti.', doneLabel: 'Yeniden çöz', onDone: () => { S.gq = null; render(); } });
   const q = S.gq;
-  handlers.back = () => { S.sub = null; S.gq = null; render(); };
+  handlers.back = () => { S.gq = null; navBack('kaynaklar'); };
   handlers.__mount = () => { const rr = () => { const b = $('#gq'); if (!b) return; b.innerHTML = Quiz.html(q); Quiz.bind(q, rr); }; Quiz.bind(q, rr); };
   const l = flatLessons().find(x => (x.grammar || []).includes(g.id));
-  return topline() + `<section class="stack fade-in"><button class="back" data-act="back">${ico('back')} Kaynaklar</button>
+  return topline('', { back: 'Geri' }) + `<section class="stack fade-in">
     <div class="lesson-top" style="padding-left:0"><div class="kicker">Gramer · ${esc(g.level || 'A1')}${l ? ` · ${l.unit.n}. ünite ${l.n}. ders` : ''}</div><h1 style="font-size:1.8rem">${esc(g.title_tr)}</h1><div class="en-title">${esc(g.title_en)}</div></div>
     ${md(g.explain_md || '')}
     ${(g.tables || []).map(t => tableHtml(t)).join('')}
@@ -2097,10 +2136,10 @@ function grammarDetail(g) {
 function viewSrs() {
   if (!S.srs) S.srs = { deck: shuffle(dueVocab()), i: 0, flipped: false, again: [], ok: 0, no: 0 };
   const st = S.srs;
-  handlers.back = () => { S.sub = null; S.srs = null; resSeg = 'kelime'; render(); };
+  handlers.back = () => { S.srs = null; resSeg = 'kelime'; navBack('kaynaklar'); };
   if (st.i >= st.deck.length) {
     if (st.again.length) { st.deck = st.again; st.again = []; st.i = 0; st.flipped = false; }
-    else return topline() + `<section class="stack fade-in"><button class="back" data-act="back">${ico('back')} Kaynaklar</button><div class="card" style="text-align:center"><div class="en" style="font-size:1.8rem">${st.ok + st.no ? 'All caught up.' : 'Nothing due.'}</div><p class="muted" style="margin-top:6px">${st.ok} hatırladın, ${st.no} tekrara düştü.</p></div><div class="row end"><button class="btn primary" data-act="back">Kelime defterine dön</button></div></section>`;
+    else return topline('', { back: 'Geri' }) + `<section class="stack fade-in"><div class="card" style="text-align:center"><div class="en" style="font-size:1.8rem">${st.ok + st.no ? 'All caught up.' : 'Nothing due.'}</div><p class="muted" style="margin-top:6px">${st.ok} hatırladın, ${st.no} tekrara düştü.</p></div><div class="row end"><button class="btn primary" data-act="back">Kelime defterine dön</button></div></section>`;
   }
   const w = wordInfo(st.deck[st.i]);
   if (!w) { st.i++; return viewSrs(); }
@@ -2108,8 +2147,7 @@ function viewSrs() {
   handlers.yes = () => { gradeVocab(w.id, true); st.ok++; st.i++; st.flipped = false; render(); };
   handlers.no = () => { gradeVocab(w.id, false); st.no++; st.again.push(w.id); st.i++; st.flipped = false; render(); };
   const e = S.vocab[w.id] || {};
-  return topline() + `<section class="stack fade-in">
-    <div class="row between"><button class="back" data-act="back">${ico('back')} Kaynaklar</button><span class="hint">${st.i + 1} / ${st.deck.length} · kutu ${e.box || 0}</span></div>
+  return topline(`<span class="hint">${st.i + 1} / ${st.deck.length} · kutu ${e.box || 0}</span>`, { back: 'Geri', noGear: true }) + `<section class="stack fade-in">
     <div class="flash ${st.flipped ? 'flipped' : ''}"><button type="button" class="face" data-act="flip" aria-label="Kartı çevir">${st.flipped ? `<div class="tr">${esc(w.tr)}</div><div class="exm"><span class="en">${esc(w.ex_en || '')}</span>${esc(w.ex_tr || '')}</div>` : `<div class="en">${esc(w.en)}</div><div class="pos">${esc(w.pos || '')}</div><span class="hint">anlamını düşün, sonra çevir</span>`}</button></div>
     <div class="row between">${sayBtn(w.en)}${st.flipped ? `<div class="judge" style="flex:1"><button class="btn ghost" data-act="no">Hatırlamadım</button><button class="btn primary" data-act="yes">Hatırladım</button></div>` : `<button class="btn primary" data-act="flip">Göster</button>`}</div>
   </section>`;
@@ -2191,7 +2229,8 @@ function viewSettings() {
   handlers.__mount = () => { const sel = $('#voice-sel'); if (sel) sel.addEventListener('change', () => { Settings.set('voice', sel.value); Sound.voices = []; Sound.init(); }); };
   const q = Store.queueCount();
   const ghState = !Keys.github() ? `Anahtar yok: dersler Pages'ten okunur (birkaç dakika gecikebilir), ilerleme bu cihazda bekler.${q ? ` <b>${q} kayıt senkronize edilmedi.</b>` : ''}` : (Store.authError ? 'Son istek reddedildi; anahtarı kontrol et.' : (q ? `${q} kayıt yazılmayı bekliyor.` : (Store.lastWrite ? `Son yazma: ${fmtTime(Store.lastWrite)}` : 'Henüz yazma yapılmadı.')));
-  return topline() + `<section class="stack" style="gap:16px">${pageTitle('Ayarlar')}
+  handlers.back = () => navBack();
+  return topline('', { back: 'Geri', noGear: true }) + `<section class="stack" style="gap:16px">${pageTitle('Ayarlar')}
     <div class="set-group" id="grp-claude"><h3>Claude</h3>
       <div class="set-row col"><div><div class="lab">API anahtarı</div><div class="desc">Konuşma pratiği, sınav ve değerlendirme için. Sadece bu cihazda saklanır; depoya yazılmaz.</div>
         <div class="keyfield"><input class="input" id="claude-key" type="${st.showClaude ? 'text' : 'password'}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sk-ant-…" value="${esc(Keys.claude())}"><button class="iconbtn" data-act="toggle-claude" aria-label="${st.showClaude ? 'Gizle' : 'Göster'}">${ico(st.showClaude ? 'eyeoff' : 'eye')}</button></div>
