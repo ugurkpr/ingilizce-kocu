@@ -4,7 +4,7 @@
    "id": "A1",
    "title_tr": "A1 · Başlangıç",
    "title_en": "A1 · Beginner",
-   "start_date": "2026-11-02",
+   "start_date": "2026-11-09",
    "units": [
     {
      "id": "u1",
@@ -400,5 +400,5 @@
   },
   "note_tr": "Hafta içi her gün bir tam ders (30-35 dk). Cumartesi konuşma sınavı + haftanın kalıplarını sesli tekrar (15-20 dk). Pazar tekrar günü: tüm bekleyen kelimeler, karışık alıştırma, ünite sınavı ve haftalık karne (20-25 dk). Kaçırılan ders ertesi güne kayar, sınav yine pazar yapılır."
  },
- "start_date": "2026-11-03"
+ "start_date": "2026-11-09"
 }

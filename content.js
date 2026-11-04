@@ -11,7 +11,7 @@ window.CONTENT = {
     "id": "A1",
     "title_tr": "A1 · Başlangıç",
     "title_en": "A1 · Beginner",
-    "start_date": "2026-11-02",
+    "start_date": "2026-11-09",
     "units": [
      {
       "id": "u1",
